@@ -43,7 +43,7 @@ window.VYBE_CATALOG = {
       "مطروح": 130
     },
     "shippingDefault": 90,
-    "sheetWebhook": "https://docs.google.com/spreadsheets/d/1WH3qI4XoGQ6j1D62PUxM-bGyoTIt-dPVO8b5Yd_SV_c/edit?gid=0#gid=0"
+    "sheetWebhook": ""
   },
   "categories": [
     {
@@ -103,25 +103,6 @@ window.VYBE_CATALOG = {
     }
   ],
   "posters": [
-    {
-      "id": "poster-mwtraqbk-sjjgr",
-      "cat": "poster3",
-      "ar": "منتج جديد",
-      "en": "New poster",
-      "tagAr": "",
-      "tagEn": "",
-      "img": "images/",
-      "descAr": "",
-      "descEn": "",
-      "colorsAr": "",
-      "colorsEn": "",
-      "available": true,
-      "w": 700,
-      "h": 933,
-      "oldPrice": {
-        "20x30": 1100
-      }
-    },
     {
       "id": "d1",
       "cat": "decor",
