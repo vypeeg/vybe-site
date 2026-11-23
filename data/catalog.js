@@ -43,7 +43,7 @@ window.VYBE_CATALOG = {
       "مطروح": 110
     },
     "shippingDefault": 90,
-    "sheetWebhook": "https://script.google.com/macros/s/AKfycbze9G2oSra38YOBeXaU3y6Jljbe1MIq8jmm_IUwfbLqjbMo7Z_pk6vOdWMaGx6N_LlS/exec"
+    "sheetWebhook": ""
   },
   "categories": [
     {
