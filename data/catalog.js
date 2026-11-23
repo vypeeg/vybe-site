@@ -102,47 +102,5 @@ window.VYBE_CATALOG = {
       "en": "Decor"
     }
   ],
-  "posters": [
-    {
-      "id": "neon-1",
-      "cat": "neon",
-      "ar": "بوستر نيون 1",
-      "en": "Neon poster 1",
-      "tagAr": "نيون",
-      "tagEn": "Neon",
-      "img": "images/VYPE POSTER n1.png",
-      "descAr": "توهج نيون يحط لمبة في أي حيطة. مثالي لغرفة نوم أو ركن مكتب.",
-      "descEn": "A neon glow that lights up any wall. Perfect for a bedroom or desk corner.",
-      "colorsAr": "أسود، أبيض، خشبي",
-      "colorsEn": "black, white, oak",
-      "available": true,
-      "w": 1199,
-      "h": 1312,
-      "featured": true,
-      "oldPrice": {
-        "20x30": 250,
-        "30x40": 420
-      }
-    },
-    {
-      "id": "neon-2",
-      "cat": "neon",
-      "ar": "بوستر نيون 2",
-      "en": "Neon poster 2",
-      "tagAr": "نيون",
-      "tagEn": "Neon",
-      "img": "images/VYPE POSTER n2.png",
-      "descAr": "توهج نيون يحط لمبة في أي حيطة. مثالي لغرفة نوم أو ركن مكتب.",
-      "descEn": "A neon glow that lights up any wall. Perfect for a bedroom or desk corner.",
-      "colorsAr": "أسود، أبيض، خشبي",
-      "colorsEn": "black, white, oak",
-      "available": true,
-      "w": 1199,
-      "h": 1312,
-      "oldPrice": {
-        "20x30": 250,
-        "30x40": 420
-      }
-    }
-  ]
+  "posters": []
 };
