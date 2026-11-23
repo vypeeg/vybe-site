@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>VYBE Admin</title>
+  <link rel="stylesheet" href="assets/css/admin.css">
+</head>
+<body>
+  <div class="wrap">
+    <header class="top">
+      <div>
+        <p class="eyebrow">VYBE LOCAL ADMIN</p>
+        <h1>إدارة الكتالوج</h1>
+        <p class="muted">عدّل المنتجات والإعدادات، ثم اضغط "تحميل catalog.js" واستبدل الملف القديم في <code>data/catalog.js</code>.</p>
+      </div>
+      <div class="top-actions">
+        <button class="btn btn--ghost" id="resetBtn" type="button">إعادة تحميل البيانات</button>
+        <button class="btn btn--ghost" id="downloadBtn" type="button">تحميل catalog.js</button>
+        <button class="btn" id="publishBtn" type="button">حفظ ونشر على الموقع</button>
+      </div>
+    </header>
+
+    <p class="status" id="status" role="status" hidden></p>
+
+    <section class="panel">
+      <div class="panel-head">
+        <h2>ربط جيت هاب</h2>
+        <button class="btn btn--ghost btn--sm" id="ghSaveBtn" type="button">حفظ الإعدادات في المتصفح</button>
+      </div>
+      <div class="grid grid-4">
+        <label class="field"><span>اسم الحساب (Owner)</span><input id="ghOwner" type="text" dir="ltr" placeholder="username"></label>
+        <label class="field"><span>اسم الريبو (Repo)</span><input id="ghRepo" type="text" dir="ltr" placeholder="vybe-site"></label>
+        <label class="field"><span>الـ Branch</span><input id="ghBranch" type="text" dir="ltr" placeholder="main"></label>
+        <label class="field"><span>فولدر الموقع داخل الريبو (اختياري)</span><input id="ghBase" type="text" dir="ltr" placeholder="سيبه فاضي لو الملفات في الجذر"></label>
+      </div>
+      <label class="field" style="margin-top:12px"><span>GitHub Token</span><input id="ghToken" type="password" dir="ltr" autocomplete="off" placeholder="github_pat_..."></label>
+      <p class="muted small">التوكن بيتحفظ في متصفحك أنت بس ومش بيتكتب في أي ملف. اعمله من GitHub ← Settings ← Developer settings ← Fine-grained tokens، على الريبو ده بس، بصلاحية <code>Contents: Read and write</code>.</p>
+    </section>
+
+    <section class="panel">
+      <div class="panel-head"><h2>الإعدادات</h2></div>
+      <div class="grid grid-4">
+        <label class="field"><span>واتساب (دولي بدون +)</span><input id="setWhatsapp" type="text" dir="ltr" placeholder="201508016013"></label>
+        <label class="field"><span>الرقم الظاهر</span><input id="setDisplay" type="text" dir="ltr" placeholder="01508016013"></label>
+        <label class="field"><span>TikTok username</span><input id="setTiktok" type="text" dir="ltr" placeholder="eg.vyb"></label>
+        <label class="field"><span>Instagram username</span><input id="setInstagram" type="text" dir="ltr" placeholder=""></label>
+        <label class="field"><span>Google Sheet Webhook</span><input id="setSheetWebhook" type="text" dir="ltr" placeholder="https://script.google.com/.../exec"></label>
+      </div>
+      <div class="grid grid-3" style="margin-top:12px">
+        <label class="field"><span>سعر 20×30</span><input id="price20x30" type="number" min="0" step="1"></label>
+        <label class="field"><span>سعر 30×40</span><input id="price30x40" type="number" min="0" step="1"></label>
+        <label class="field"><span>شحن افتراضي لأي محافظة غير محددة</span><input id="shipDefault" type="number" min="0" step="1"></label>
+      </div>
+    </section>
+
+    <section class="panel">
+      <div class="panel-head">
+        <h2>تكلفة الشحن حسب المحافظة</h2>
+        <span class="muted small">القاهرة 75 جنيه — عدّل أي رقم وتضغط حفظ ونشر.</span>
+      </div>
+      <div class="table-wrap">
+        <table class="table" id="shipTable">
+          <thead><tr><th>المحافظة</th><th>الشحن (جنيه)</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="panel">
+      <div class="panel-head">
+        <h2>الطلبات (من جوجل شيت)</h2>
+        <button class="btn btn--ghost btn--sm" id="loadOrdersBtn" type="button">تحميل الطلبات</button>
+      </div>
+      <p class="muted small" id="ordersHint">حط رابط الـ Webhook في الإعدادات، وانشر سكربت جوجل كـ Web app، وبعدين اضغط تحميل الطلبات.</p>
+      <div class="table-wrap">
+        <table class="table" id="ordersTable">
+          <thead><tr><th>رقم الطلب</th><th>العميل</th><th>المحافظة</th><th>الإجمالي</th><th>المقدّم</th><th>الحالة</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="panel">
+      <div class="panel-head">
+        <h2>الأقسام</h2>
+        <button class="btn btn--ghost btn--sm" id="addCatBtn" type="button">+ إضافة قسم</button>
+      </div>
+      <div class="table-wrap">
+        <table class="table" id="catsTable">
+          <thead><tr><th>ID</th><th>عربي</th><th>English</th><th></th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <p class="muted small">الـ ID يستخدم في المنتجات (مثال: <code>islamic</code>). لا تستخدم مسافات.</p>
+    </section>
+
+    <section class="panel">
+      <div class="panel-head">
+        <h2>المنتجات</h2>
+        <button class="btn btn--ghost btn--sm" id="addPosterBtn" type="button">+ إضافة منتج</button>
+      </div>
+      <div id="posters"></div>
+    </section>
+  </div>
+
+  <template id="posterTpl">
+    <article class="poster-card">
+      <div class="poster-card__head">
+        <strong class="poster-title"></strong>
+        <div class="row-actions">
+          <button class="btn btn--ghost btn--sm" data-act="dup" type="button">نسخ</button>
+          <button class="btn btn--danger btn--sm" data-act="del" type="button">حذف</button>
+        </div>
+      </div>
+      <div class="grid grid-4">
+        <label class="field"><span>ID</span><input data-k="id" type="text" dir="ltr"></label>
+        <label class="field"><span>القسم</span><select data-k="cat"></select></label>
+        <label class="field"><span>الاسم بالعربي</span><input data-k="ar" type="text"></label>
+        <label class="field"><span>Name in English</span><input data-k="en" type="text" dir="ltr"></label>
+        <label class="field"><span>Tag عربي</span><input data-k="tagAr" type="text"></label>
+        <label class="field"><span>Tag English</span><input data-k="tagEn" type="text" dir="ltr"></label>
+        <label class="field"><span>مسار الصورة</span><input data-k="img" type="text" dir="ltr" placeholder="images/file.jpg"></label>
+        <label class="field"><span>متوفر؟</span><select data-k="available"><option value="true">نعم</option><option value="false">لا (مخفي)</option></select></label>
+        <label class="field"><span>Featured (الأكثر مبيعاً)</span><select data-k="featured"><option value="">لا</option><option value="true">نعم</option></select></label>
+        <label class="field"><span>قبل الخصم 20×30</span><input data-k="old20" type="number" min="0" step="1" placeholder="فاضي = بدون خصم"></label>
+        <label class="field"><span>قبل الخصم 30×40</span><input data-k="old40" type="number" min="0" step="1" placeholder="فاضي = بدون خصم"></label>
+        <label class="field"><span>وصف عربي</span><input data-k="descAr" type="text"></label>
+        <label class="field"><span>Description EN</span><input data-k="descEn" type="text" dir="ltr"></label>
+        <label class="field"><span>ألوان/خيارات (بفاصلة)</span><input data-k="colorsAr" type="text" placeholder="أسود، أبيض، خشبي"></label>
+        <label class="field"><span>Options EN (comma)</span><input data-k="colorsEn" type="text" dir="ltr" placeholder="black, white, oak"></label>
+        <label class="field"><span>عرض الصورة w</span><input data-k="w" type="number" min="1" step="1"></label>
+        <label class="field"><span>ارتفاع الصورة h</span><input data-k="h" type="number" min="1" step="1"></label>
+      </div>
+      <div class="upload-row">
+        <label class="btn btn--ghost btn--sm upload-btn">رفع صورة جديدة<input type="file" accept="image/*" data-upload hidden></label>
+        <span class="muted small">بترفع الصورة على جيت هاب في <code>images/</code> وتكتب المسار والمقاس تلقائي.</span>
+      </div>
+    </article>
+  </template>
+
+  <script src="data/catalog.js"></script>
+  <script src="assets/js/admin.js"></script>
+</body>
+</html>

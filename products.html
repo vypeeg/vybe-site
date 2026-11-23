@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="ar" dir="rtl" class="no-js"
+  data-title-ar="VYBE — كل المنتجات | بوسترات ونيون وبراويز ثلاثية"
+  data-title-en="VYBE — All products | Posters, neon & triptychs"
+  data-desc-ar="كل تصاميم VYBE: بوسترات عادية، بوسترات نيون، وبراويز ثلاثية. اختر المقاس وأضف للسلة، والشحن لكل محافظات مصر."
+  data-desc-en="All VYBE designs: regular posters, neon posters and triptych sets. Pick a size, add to cart, and we ship across Egypt.">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>VYBE — كل المنتجات | بوسترات ونيون وبراويز ثلاثية</title>
+  <meta name="description" content="كل تصاميم VYBE: بوسترات عادية، بوسترات نيون، وبراويز ثلاثية. اختر المقاس وأضف للسلة، والشحن لكل محافظات مصر.">
+  <meta name="theme-color" content="#f4f0e6">
+  <meta name="color-scheme" content="light dark">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alexandria:wght@300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=IBM+Plex+Sans+Arabic:wght@300;400;500;600&family=Inter:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="a11y.skip">تخطى إلى المحتوى</a>
+
+  <div class="announce" aria-hidden="true">
+    <div class="announce__track" id="announceTrack"></div>
+  </div>
+
+  <header class="site-head" id="siteHead">
+    <div class="container head-inner">
+      <a class="brand" href="index.html" aria-label="VYBE">
+        <svg class="brand__mark" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true">
+          <rect x="2.5" y="2.5" width="27" height="27" rx="1"></rect>
+          <path d="M10 10.5 16 22l6-11.5"></path>
+        </svg>
+        <span class="brand__word">VYBE</span>
+        <span class="brand__sub">ART HOUSE</span>
+      </a>
+
+      <nav class="main-nav" aria-label="VYBE">
+        <a href="index.html" data-i18n="nav.home">الرئيسية</a>
+        <a href="products.html" data-i18n="nav.collection">المنتجات</a>
+        <a href="index.html#studio" data-i18n="nav.studio">جرّب صورتك</a>
+        <a href="about.html" data-i18n="nav.about">عن VYBE</a>
+        <a href="index.html#faq" data-i18n="nav.faq">أسئلة</a>
+      </nav>
+
+      <div class="head-actions">
+        <button class="icon-btn lang-btn" type="button" data-action="lang" aria-label="English">EN</button>
+        <button class="icon-btn" type="button" data-action="theme" id="themeBtn" aria-label="تبديل الوضع الداكن">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"></path></svg>
+        </button>
+        <button class="cart-btn" type="button" data-action="cart" aria-label="السلة" id="cartBtn">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 8h12l-1.1 12H7.1L6 8Z"></path><path d="M9 8V6a3 3 0 0 1 6 0v2"></path></svg>
+          <span data-i18n="nav.cart">السلة</span>
+          <span class="cart-count is-empty" id="cartCount">0</span>
+        </button>
+        <button class="icon-btn menu-btn" type="button" data-action="menu" aria-label="القائمة" id="menuBtn">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><path d="M3 7h18M3 12h18M3 17h18"></path></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="section" id="collection" style="padding-top:clamp(48px,6vw,80px)">
+      <div class="container">
+        <div class="collection-head reveal">
+          <div>
+            <p class="eyebrow" data-i18n="products.eyebrow">كل المنتجات</p>
+            <h2 data-i18n="products.title">بوسترات، نيون، وبراويز ثلاثية.</h2>
+            <p class="lead" data-i18n="products.lead">اختار التصنيف، حدد المقاس، والسعر بيتحدث فورًا. الشحن يُحسب حسب المحافظة ويُأكد على واتساب.</p>
+          </div>
+        </div>
+
+        <div class="product-tools reveal" id="productTools"></div>
+        <div class="filters reveal" id="filters" role="group" aria-label="الأقسام"></div>
+        <div class="products" id="products"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a class="brand" href="index.html" aria-label="VYBE">
+            <svg class="brand__mark" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true">
+              <rect x="2.5" y="2.5" width="27" height="27" rx="1"></rect>
+              <path d="M10 10.5 16 22l6-11.5"></path>
+            </svg>
+            <span class="brand__word">VYBE</span>
+            <span class="brand__sub">ART HOUSE</span>
+          </a>
+          <p class="footer-tagline" data-i18n="footer.tagline">فن يليق بجدرانك. بوسترات بإطارات جاهزة للتعليق، توصل لبابك.</p>
+        </div>
+
+        <div class="footer-col">
+          <h4 data-i18n="footer.explore">استكشف</h4>
+          <a href="products.html" data-i18n="nav.collection">المنتجات</a>
+          <a href="index.html#studio" data-i18n="nav.studio">جرّب صورتك</a>
+          <a href="about.html" data-i18n="nav.about">عن VYBE</a>
+          <a href="index.html#faq" data-i18n="nav.faq">أسئلة</a>
+        </div>
+
+        <div class="footer-col">
+          <h4 data-i18n="footer.contact">تواصل</h4>
+          <span data-i18n="footer.phoneLabel">واتساب / موبايل</span>
+          <a class="phone" id="footerPhone" href="tel:+201508016013" dir="ltr">01508016013</a>
+          <a href="#" target="_blank" rel="noopener" data-wa="footer" data-i18n="footer.whatsapp">راسلنا على واتساب</a>
+          <span data-i18n="footer.ship">شحن لكل محافظات مصر</span>
+          <span data-i18n="footer.cod">المقدّم فودافون كاش والباقي عند الاستلام</span>
+        </div>
+
+        <div class="footer-col">
+          <h4 data-i18n="footer.follow">تابعنا</h4>
+          <div class="footer-social">
+            <a href="#" id="tiktokLink" target="_blank" rel="noopener" aria-label="TikTok">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.6 3c.4 2.3 1.7 3.7 4 3.9v2.9c-1.5.1-2.8-.4-4-1.2v6.7c0 4.1-3.1 6.4-6.3 5.8-2.8-.5-4.6-3-4.3-5.9.3-3 3.1-5.1 6.1-4.7v3c-.4-.1-.8-.2-1.2-.1-1.3.1-2.2 1.1-2.1 2.4.1 1.2 1.1 2.1 2.3 2.1 1.4 0 2.2-1 2.2-2.6V3h3.3Z"></path></svg>
+            </a>
+            <a href="#" id="instagramLink" target="_blank" rel="noopener" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.5" cy="6.5" r="0.8" fill="currentColor" stroke="none"></circle></svg>
+            </a>
+            <a href="#" target="_blank" rel="noopener" data-wa="footer" aria-label="WhatsApp">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2Zm5.8 14.03c-.24.68-1.4 1.3-1.93 1.35-.53.05-1.02.24-3.45-.72-2.93-1.16-4.78-4.2-4.92-4.4-.14-.19-1.17-1.56-1.17-2.98 0-1.41.74-2.1 1-2.4.26-.29.56-.36.75-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.58.81 1.99.88 2.13.07.14.12.31.02.5-.1.19-.15.31-.29.48-.14.17-.3.38-.43.51-.14.14-.29.29-.12.58.17.29.75 1.24 1.61 2.01 1.11.99 2.04 1.3 2.33 1.44.29.14.46.12.63-.07.17-.19.72-.84.91-1.13.19-.29.38-.24.64-.14.26.09 1.67.79 1.96.93.29.14.48.22.55.34.07.12.07.68-.17 1.36Z"></path></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-word" aria-hidden="true">VYBE</div>
+
+      <div class="footer-bottom">
+        <span>© <span id="year">2026</span> VYBE. <span data-i18n="footer.rights">جميع الحقوق محفوظة.</span></span>
+        <div class="footer-bottom__right">
+          <span data-i18n="footer.madeIn">صُنع بعناية في القاهرة.</span>
+          <a href="admin.html" data-i18n="footer.admin">لوحة الإدارة</a>
+          <a href="#main" data-i18n="footer.top">لأعلى الصفحة</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <a class="wa-float" href="#" target="_blank" rel="noopener" data-wa="float" aria-label="WhatsApp">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2Zm5.8 14.03c-.24.68-1.4 1.3-1.93 1.35-.53.05-1.02.24-3.45-.72-2.93-1.16-4.78-4.2-4.92-4.4-.14-.19-1.17-1.56-1.17-2.98 0-1.41.74-2.1 1-2.4.26-.29.56-.36.75-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.58.81 1.99.88 2.13.07.14.12.31.02.5-.1.19-.15.31-.29.48-.14.17-.3.38-.43.51-.14.14-.29.29-.12.58.17.29.75 1.24 1.61 2.01 1.11.99 2.04 1.3 2.33 1.44.29.14.46.12.63-.07.17-.19.72-.84.91-1.13.19-.29.38-.24.64-.14.26.09 1.67.79 1.96.93.29.14.48.22.55.34.07.12.07.68-.17 1.36Z"></path></svg>
+    <span data-i18n="wa.float">واتساب</span>
+  </a>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <!-- Mobile menu -->
+  <div class="mobile-menu" id="mobileMenu" role="dialog" aria-modal="true" aria-label="القائمة" aria-hidden="true">
+    <div class="mobile-menu__head">
+      <a class="brand" href="index.html" aria-label="VYBE">
+        <svg class="brand__mark" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true">
+          <rect x="2.5" y="2.5" width="27" height="27" rx="1"></rect>
+          <path d="M10 10.5 16 22l6-11.5"></path>
+        </svg>
+        <span class="brand__word">VYBE</span>
+      </a>
+      <button class="cart-close" type="button" data-action="close-menu" aria-label="إغلاق">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><path d="M5 5l14 14M19 5 5 19"></path></svg>
+      </button>
+    </div>
+    <nav class="mobile-menu__nav" aria-label="VYBE">
+      <a href="index.html"><small>01</small><span data-i18n="nav.home">الرئيسية</span></a>
+      <a href="products.html"><small>02</small><span data-i18n="nav.collection">المنتجات</span></a>
+      <a href="index.html#studio"><small>03</small><span data-i18n="nav.studio">جرّب صورتك</span></a>
+      <a href="about.html"><small>04</small><span data-i18n="nav.about">عن VYBE</span></a>
+      <a href="index.html#faq"><small>05</small><span data-i18n="nav.faq">أسئلة</span></a>
+    </nav>
+    <div class="mobile-menu__foot">
+      <div class="mobile-menu__phone">
+        <span data-i18n="footer.phoneLabel">واتساب / موبايل</span>
+        <b id="menuPhone">01508016013</b>
+      </div>
+      <div class="footer-social">
+        <a href="#" id="tiktokLinkMenu" target="_blank" rel="noopener" aria-label="TikTok">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.6 3c.4 2.3 1.7 3.7 4 3.9v2.9c-1.5.1-2.8-.4-4-1.2v6.7c0 4.1-3.1 6.4-6.3 5.8-2.8-.5-4.6-3-4.3-5.9.3-3 3.1-5.1 6.1-4.7v3c-.4-.1-.8-.2-1.2-.1-1.3.1-2.2 1.1-2.1 2.4.1 1.2 1.1 2.1 2.3 2.1 1.4 0 2.2-1 2.2-2.6V3h3.3Z"></path></svg>
+        </a>
+        <a href="#" target="_blank" rel="noopener" data-wa="float" aria-label="WhatsApp">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2Zm5.8 14.03c-.24.68-1.4 1.3-1.93 1.35-.53.05-1.02.24-3.45-.72-2.93-1.16-4.78-4.2-4.92-4.4-.14-.19-1.17-1.56-1.17-2.98 0-1.41.74-2.1 1-2.4.26-.29.56-.36.75-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.58.81 1.99.88 2.13.07.14.12.31.02.5-.1.19-.15.31-.29.48-.14.17-.3.38-.43.51-.14.14-.29.29-.12.58.17.29.75 1.24 1.61 2.01 1.11.99 2.04 1.3 2.33 1.44.29.14.46.12.63-.07.17-.19.72-.84.91-1.13.19-.29.38-.24.64-.14.26.09 1.67.79 1.96.93.29.14.48.22.55.34.07.12.07.68-.17 1.36Z"></path></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="cart-wrap" id="cartWrap" aria-hidden="true"></div>
+
+  <noscript>
+    <div style="padding:24px;text-align:center;background:#1b1a15;color:#f4f0e6;font-family:sans-serif">
+      VYBE: فعّل JavaScript لعرض التصاميم والسلة.
+    </div>
+  </noscript>
+
+  <script src="data/catalog.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
