@@ -104,20 +104,24 @@ window.VYBE_CATALOG = {
   ],
   "posters": [
     {
-      "id": "poster-mwtraqbk-sjjgr",
+      "id": "p1",
       "cat": "poster3",
-      "ar": "منتج جديد",
-      "en": "New poster",
+      "ar": "اوليسي ",
+      "en": "michal olise 3posters",
       "tagAr": "",
       "tagEn": "",
-      "img": "images/",
+      "img": "images/michael-olise-bayern-munich-triptych.png",
       "descAr": "",
       "descEn": "",
       "colorsAr": "",
       "colorsEn": "",
       "available": true,
-      "w": 700,
-      "h": 933
+      "w": 1536,
+      "h": 1024,
+      "oldPrice": {
+        "20x30": 600,
+        "30x40": 900
+      }
     },
     {
       "id": "d1",
