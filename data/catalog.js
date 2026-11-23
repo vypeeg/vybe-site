@@ -121,7 +121,7 @@ window.VYBE_CATALOG = {
       "featured": true,
       "oldPrice": {
         "20x30": 250,
-        "30x40": 420
+        "30x40": 450
       }
     },
     {
