@@ -104,25 +104,6 @@ window.VYBE_CATALOG = {
   ],
   "posters": [
     {
-      "id": "poster-mwtraqbk-sjjgr",
-      "cat": "poster3",
-      "ar": "منتج جديد",
-      "en": "New poster",
-      "tagAr": "",
-      "tagEn": "",
-      "img": "images/",
-      "descAr": "",
-      "descEn": "",
-      "colorsAr": "",
-      "colorsEn": "",
-      "available": true,
-      "w": 700,
-      "h": 933,
-      "oldPrice": {
-        "20x30": 1100
-      }
-    },
-    {
       "id": "d1",
       "cat": "decor",
       "ar": " اللهم بارك ف هذا البيت ",
