@@ -117,7 +117,10 @@ window.VYBE_CATALOG = {
       "colorsEn": "",
       "available": true,
       "w": 700,
-      "h": 933
+      "h": 933,
+      "oldPrice": {
+        "20x30": 1100
+      }
     },
     {
       "id": "d1",
