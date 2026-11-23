@@ -6,12 +6,12 @@
 window.VYBE_CATALOG = {
   "settings": {
     "whatsapp": "201508016013",
-    "display": "01508016013",
+    "display": "01006935540",
     "tiktok": "eg.vyb",
     "instagram": "eg.vyb",
     "prices": {
-      "20x30": 200,
-      "30x40": 330
+      "20x30": 130,
+      "30x40": 200
     },
     "shipping": {
       "القاهرة": 65,
