@@ -102,5 +102,42 @@ window.VYBE_CATALOG = {
       "en": "Decor"
     }
   ],
-  "posters": []
+  "posters": [
+    {
+      "id": "poster-mwtraqbk-sjjgr",
+      "cat": "poster3",
+      "ar": "منتج جديد",
+      "en": "New poster",
+      "tagAr": "",
+      "tagEn": "",
+      "img": "images/",
+      "descAr": "",
+      "descEn": "",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 700,
+      "h": 933
+    },
+    {
+      "id": "d1",
+      "cat": "decor",
+      "ar": " اللهم بارك ف هذا البيت ",
+      "en": "allahuma barak f hazha albayt",
+      "tagAr": "",
+      "tagEn": "",
+      "img": "images/barek.jpg",
+      "descAr": " ديكور للبيت ",
+      "descEn": "",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 700,
+      "h": 932,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      }
+    }
+  ]
 };
