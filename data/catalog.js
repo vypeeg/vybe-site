@@ -106,6 +106,26 @@ window.VYBE_CATALOG = {
     {
       "id": "cars",
       "cat": "cars",
+      "ar": "FU*L LOVE I WANT CAR",
+      "en": "FU*L LOVE I WANT CAR",
+      "tagAr": "سيارات، بي ام دبليو، مرسيدس، فيراري، لامبورجيني، بوسترات سيارات",
+      "tagEn": "Cars, BMW, Mercedes, Ferrari, Lamborghini, Automotive",
+      "img": "images/vype-poster-n7.png",
+      "descAr": "عبّر عن شغفك بعالم السيارات مع تصميمات فنية مستوحاة من أشهر السيارات والعلامات العالمية. الاختيار المثالي لعشاق السيارات والديكورات العصرية.",
+      "descEn": "Celebrate automotive passion with premium car-inspired wall art. Featuring iconic automotive designs and striking details, perfect for car enthusiasts and modern spaces.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1199,
+      "h": 1312,
+      "oldPrice": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "cars",
+      "cat": "cars",
       "ar": "PORSCHE GT3RS",
       "en": "PORSCHE GT3RS",
       "tagAr": "سيارات، بورش، بوسترات سيارات",
