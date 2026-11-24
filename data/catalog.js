@@ -104,6 +104,27 @@ window.VYBE_CATALOG = {
   ],
   "posters": [
     {
+      "id": "poster-mwus8un7-t7t48",
+      "cat": "cars",
+      "ar": "SHELPY GT500",
+      "en": "SHELPY GT500",
+      "tagAr": "سيارات، بي ام دبليو، مرسيدس، فيراري، لامبورجيني، بوسترات سيارات",
+      "tagEn": ": Cars, BMW, Mercedes, Ferrari, Lamborghi,SHELPYni, Automotive Art, Car Poster",
+      "img": "images/vype-poster-n4.png",
+      "descAr": "عبّر عن شغفك بعالم السيارات مع تصميمات فنية مستوحاة من أشهر السيارات والعلامات العالمية. الاختيار المثالي لعشاق السيارات والديكورات العصرية.",
+      "descEn": "Celebrate automotive passion with premium car-inspired wall art. Featuring iconic automotive designs and striking details, perfect for car enthusiasts and modern spaces.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1199,
+      "h": 1312,
+      "featured": true,
+      "oldPrice": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
       "id": "cars",
       "cat": "cars",
       "ar": "AUDI R8",
