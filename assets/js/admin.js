@@ -54,6 +54,13 @@
         if (old20 > 0) o.oldPrice["20x30"] = old20;
         if (old40 > 0) o.oldPrice["30x40"] = old40;
       }
+      var new20 = num(p.price && p.price["20x30"], 0);
+      var new40 = num(p.price && p.price["30x40"], 0);
+      if (new20 > 0 || new40 > 0) {
+        o.price = {};
+        if (new20 > 0) o.price["20x30"] = new20;
+        if (new40 > 0) o.price["30x40"] = new40;
+      }
       return o;
     });
   }
@@ -123,6 +130,8 @@
         else if (k === "featured") { el.value = p.featured ? "true" : ""; }
         else if (k === "old20") { el.value = (p.oldPrice && p.oldPrice["20x30"]) || ""; }
         else if (k === "old40") { el.value = (p.oldPrice && p.oldPrice["30x40"]) || ""; }
+        else if (k === "new20") { el.value = (p.price && p.price["20x30"]) || ""; }
+        else if (k === "new40") { el.value = (p.price && p.price["30x40"]) || ""; }
         else if (k === "available") { el.value = p.available === false ? "false" : "true"; }
         else { el.value = p[k] == null ? "" : p[k]; }
         el.setAttribute("data-i", i);
@@ -169,6 +178,16 @@
         else delete op[sz];
         if (Object.keys(op).length) state.posters[i].oldPrice = op;
         else delete state.posters[i].oldPrice;
+        return;
+      }
+      if (k === "new20" || k === "new40") {
+        var nsz = k === "new20" ? "20x30" : "30x40";
+        var nval = Math.max(0, Math.round(num(t.value, 0)));
+        var np = state.posters[i].price || {};
+        if (nval > 0) np[nsz] = nval;
+        else delete np[nsz];
+        if (Object.keys(np).length) state.posters[i].price = np;
+        else delete state.posters[i].price;
         return;
       }
       if (k === "w" || k === "h") state.posters[i][k] = Math.max(1, Math.round(num(t.value, state.posters[i][k] || 1)));

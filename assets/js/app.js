@@ -285,7 +285,7 @@
       "cart.payment": "دفع المقدّم",
       "cart.payVodafone": "فودافون كاش (الشحن)",
       "cart.payInstapay": "إنستاباي (قريبًا)",
-      "cart.payHint": "حوّل المقدّم لفودافون كاش 01508016013 بعد مراجعة الطلب، والباقي كاش عند الاستلام.",
+      "cart.payHint": "حوّل المقدّم لفودافون كاش 01006935540 بعد مراجعة الطلب، والباقي كاش عند الاستلام.",
       "cart.errName": "اكتب اسمك.",
       "cart.errPhone": "اكتب رقم موبايل مصري صحيح (11 رقم).",
       "cart.errGov": "اختر المحافظة.",
@@ -585,7 +585,7 @@
       "cart.payment": "Deposit payment",
       "cart.payVodafone": "Vodafone Cash (shipping)",
       "cart.payInstapay": "InstaPay (soon)",
-      "cart.payHint": "Send the deposit to Vodafone Cash 01508016013 after reviewing your order. The balance is cash on delivery.",
+      "cart.payHint": "Send the deposit to Vodafone Cash 01006935540 after reviewing your order. The balance is cash on delivery.",
       "cart.errName": "Enter your name.",
       "cart.errPhone": "Enter a valid Egyptian mobile number (11 digits).",
       "cart.errGov": "Choose a governorate.",
@@ -687,11 +687,20 @@
   function posterTag(p) { return S.lang === "en" && p.tagEn ? p.tagEn : (p.tagAr || ""); }
   function catName(c) { return S.lang === "en" && c.en ? c.en : c.ar; }
   function imgSrc(p) { return p.img; }
-  function priceOf(sz) { return Number(DATA.settings.prices[sz]) || 0; }
+  /* السعر بعد الخصم: لو المنتج له سعر خاص (p.price) بيتاخد، وإلا بيتاخد السعر العام من الإعدادات */
+  function priceOf(sz, pid) {
+    if (pid) {
+      var p = posterById(pid);
+      var own = p && p.price ? Number(p.price[sz]) : 0;
+      if (own > 0) return own;
+    }
+    return Number(DATA.settings.prices[sz]) || 0;
+  }
+  function itemPrice(item) { return priceOf(item.size, item.type === "custom" ? null : item.pid); }
   function formatNum(n) { return numberFmt.format(Number(n) || 0); }
   function unit() { return t("collection.unit"); }
   function cartCount() { return S.cart.reduce(function (n, item) { return n + item.qty; }, 0); }
-  function total() { return S.cart.reduce(function (n, item) { return n + priceOf(item.size) * item.qty; }, 0); }
+  function total() { return S.cart.reduce(function (n, item) { return n + itemPrice(item) * item.qty; }, 0); }
 
   function shippingCost() {
     var map = (DATA.settings && DATA.settings.shipping) || {};
@@ -835,7 +844,7 @@
     var colors = String(S.lang === "en" ? (p.colorsEn || p.colorsAr || "") : (p.colorsAr || p.colorsEn || "")).split(",").map(function (s) { return s.trim(); }).filter(Boolean);
     var pcat = DATA.categories.filter(function (c) { return c.id === p.cat; })[0];
     var sectionLabel = pcat ? (S.lang === "en" ? (pcat.en || pcat.ar) : (pcat.ar || pcat.en)) : "";
-    var nowPrice = priceOf(selected);
+    var nowPrice = priceOf(selected, p.id);
     var oldVal = p.oldPrice && Number(p.oldPrice[selected]);
     var hasOld = Number.isFinite(oldVal) && oldVal > nowPrice;
     var priceHtml = hasOld
@@ -1277,7 +1286,7 @@
 
   function cartLine(item, index) {
     var info = cartLineInfo(item);
-    var lineTotal = priceOf(item.size) * item.qty;
+    var lineTotal = itemPrice(item) * item.qty;
     return '<div class="cart-line">' +
       '<div class="cart-thumb"><img src="' + esc(info.thumb) + '" alt="" loading="lazy"></div>' +
       '<div class="cart-line__info">' +
@@ -1340,7 +1349,7 @@
       return t("cart.custom") + " (" + item.file + ") — " + t("msg.size") + " " + SZL[item.size] + " — " + opts + " — " + t("msg.qty") + " " + item.qty + " — " + formatNum(priceOf(item.size) * item.qty) + " " + unit() + " (" + t("msg.customNote") + ")";
     }
     var p = posterById(item.pid);
-    return (p ? posterName(p) : item.pid) + " — " + t("msg.size") + " " + SZL[item.size] + " — " + t("msg.qty") + " " + item.qty + " — " + formatNum(priceOf(item.size) * item.qty) + " " + unit();
+    return (p ? posterName(p) : item.pid) + " — " + t("msg.size") + " " + SZL[item.size] + " — " + t("msg.qty") + " " + item.qty + " — " + formatNum(itemPrice(item) * item.qty) + " " + unit();
   }
 
   function orderMessage() {
@@ -1502,7 +1511,7 @@
         return t("cart.custom") + " | " + SZL[item.size] + " | qty " + item.qty + " | " + formatNum(priceOf(item.size) * item.qty) + " " + unit() + " (photo via WhatsApp)";
       }
       var p = posterById(item.pid);
-      return (p ? posterName(p) : item.pid) + " | " + SZL[item.size] + " | qty " + item.qty + " | " + formatNum(priceOf(item.size) * item.qty) + " " + unit();
+      return (p ? posterName(p) : item.pid) + " | " + SZL[item.size] + " | qty " + item.qty + " | " + formatNum(itemPrice(item) * item.qty) + " " + unit();
     });
     var payload = {
       orderId: S.orderId,
