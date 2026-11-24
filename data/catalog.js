@@ -104,6 +104,30 @@ window.VYBE_CATALOG = {
   ],
   "posters": [
     {
+      "id": "cars",
+      "cat": "cars",
+      "ar": "PORSHE",
+      "en": "PORSHE",
+      "tagAr": "سيارات، بي ام دبليو، مرسيدس، فيراري، لامبورجيني، بوسترات سيارات,بورش",
+      "tagEn": "Cars, BMW, Mercedes, Ferrari, Lamborghini, Automotive Art, Car Poster",
+      "img": "images/vybe-frame-22-.png",
+      "descAr": "عبّر عن شغفك بعالم السيارات مع تصميمات فنية مستوحاة من أشهر السيارات والعلامات العالمية. الاختيار المثالي لعشاق السيارات والديكورات العصرية.",
+      "descEn": "Celebrate automotive passion with premium car-inspired wall art. Featuring iconic automotive designs and striking details, perfect for car enthusiasts and modern spaces.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
       "id": "poster-mwusumhs-4sxyv",
       "cat": "cars",
       "ar": "LAMPORGHINI",
