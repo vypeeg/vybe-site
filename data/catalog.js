@@ -104,6 +104,22 @@ window.VYBE_CATALOG = {
   ],
   "posters": [
     {
+      "id": "poster-mwusumhs-4sxyv",
+      "cat": "cars",
+      "ar": "منتج جديد",
+      "en": "New poster",
+      "tagAr": "",
+      "tagEn": "",
+      "img": "images/",
+      "descAr": "",
+      "descEn": "",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 700,
+      "h": 933
+    },
+    {
       "id": "cars",
       "cat": "cars",
       "ar": "TOYOTA SUPRA",
@@ -126,8 +142,8 @@ window.VYBE_CATALOG = {
     {
       "id": "cars",
       "cat": "cars",
-      "ar": "FU*L LOVE I WANT CAR",
-      "en": "FU*L LOVE I WANT CAR",
+      "ar": "FU*K LOVE I WANT CAR",
+      "en": "FU*K LOVE I WANT CAR",
       "tagAr": "سيارات، بي ام دبليو، مرسيدس، فيراري، لامبورجيني، بوسترات سيارات",
       "tagEn": "Cars, BMW, Mercedes, Ferrari, Lamborghini, Automotive",
       "img": "images/vype-poster-n7.png",
