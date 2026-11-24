@@ -104,23 +104,23 @@ window.VYBE_CATALOG = {
   ],
   "posters": [
     {
-      "id": "d1",
-      "cat": "decor",
-      "ar": " اللهم بارك ف هذا البيت ",
-      "en": "allahuma barak f hazha albayt",
-      "tagAr": "",
-      "tagEn": "",
-      "img": "images/barek.jpg",
-      "descAr": " ديكور للبيت ",
-      "descEn": "",
+      "id": "cars",
+      "cat": "cars",
+      "ar": "BME M5",
+      "en": "BMW M5",
+      "tagAr": "سيارات، بي ام دبليو، مرسيدس، فيراري، لامبورجيني، بوسترات سيارات",
+      "tagEn": "Cars, BMW, Mercedes, Ferrari, Lamborghini, Automotive Art, Car Poster",
+      "img": "images/vype-poster-n2.png",
+      "descAr": "عبّر عن شغفك بعالم السيارات مع تصميمات فنية مستوحاة من أشهر السيارات والعلامات العالمية. الاختيار المثالي لعشاق السيارات والديكورات العصرية.",
+      "descEn": "Celebrate automotive passion with premium car-inspired wall art. Featuring iconic automotive designs and striking details, perfect for car enthusiasts and modern spaces.",
       "colorsAr": "",
       "colorsEn": "",
       "available": true,
-      "w": 700,
-      "h": 932,
+      "w": 1199,
+      "h": 1312,
       "oldPrice": {
-        "20x30": 200,
-        "30x40": 300
+        "20x30": 130,
+        "30x40": 200
       }
     }
   ]
