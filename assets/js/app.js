@@ -6,10 +6,37 @@
 
   var DATA = window.VYBE_CATALOG || { settings: { prices: {}, whatsapp: "201508016013", display: "01508016013" }, categories: [], posters: [] };
 
-  var SZ = ["20x30", "30x40"];
-  var SZL = { "20x30": "\u202A20×30\u202C", "30x40": "\u202A30×40\u202C" };
-  var SZR = { "20x30": [20, 30], "30x40": [30, 40] };
-  var FRAME_W = { "20x30": "42%", "30x40": "52%" };
+  /* حماية: لو منتجين ليهم نفس الـ ID (أو ID فاضي) بنخلي كل واحد ID فريد، عشان تغيير مقاس منتج مايبدّلش صور باقي المنتجات */
+  (function () {
+    var seen = {};
+    (DATA.posters || []).forEach(function (p, i) {
+      var base = String(p.id || "").trim() || ("poster-" + (i + 1));
+      var id = base, n = 2;
+      while (seen[id]) id = base + "-" + (n++);
+      seen[id] = true;
+      p.id = id;
+    });
+  })();
+
+  /* كل المقاسات الممكنة. اللي بيظهر منها في الموقع بيتحدد من الأدمن (settings.sizeEnabled) ولازم يكون له سعر */
+  var ALL_SZ = ["10x20", "15x20", "20x30", "30x40", "40x50"];
+  var SZL = { "10x20": "\u202A10×20\u202C", "15x20": "\u202A15×20\u202C", "20x30": "\u202A20×30\u202C", "30x40": "\u202A30×40\u202C", "40x50": "\u202A40×50\u202C" };
+  var SZR = { "10x20": [10, 20], "15x20": [15, 20], "20x30": [20, 30], "30x40": [30, 40], "40x50": [40, 50] };
+  var FRAME_W = { "10x20": "30%", "15x20": "36%", "20x30": "42%", "30x40": "52%", "40x50": "60%" };
+
+  function activeSizes() {
+    var s = DATA.settings || {};
+    var en = s.sizeEnabled || {};
+    var pr = s.prices || {};
+    var list = ALL_SZ.filter(function (sz) {
+      var on = sz in en ? en[sz] !== false : (sz === "20x30" || sz === "30x40");
+      return on && Number(pr[sz]) > 0;
+    });
+    return list.length ? list : ["30x40"];
+  }
+  var SZ = activeSizes();
+  function validSize(sz) { return SZ.indexOf(sz) >= 0; }
+  function fallbackSize() { return SZ.indexOf("30x40") >= 0 ? "30x40" : SZ[0]; }
 
   var GOV = {
     ar: ["القاهرة", "الجيزة", "الإسكندرية", "القليوبية", "الشرقية", "الدقهلية", "الغربية", "المنوفية", "البحيرة", "كفر الشيخ", "دمياط", "بورسعيد", "الإسماعيلية", "السويس", "شمال سيناء", "جنوب سيناء", "الفيوم", "بني سويف", "المنيا", "أسيوط", "سوهاج", "قنا", "الأقصر", "أسوان", "البحر الأحمر", "الوادي الجديد", "مطروح"],
@@ -193,6 +220,11 @@
       "sizes.desc1": "للمكتب، الرف، أو جانب السرير.",
       "sizes.desc2": "الاختيار الأنسب للصالة أو غرفة النوم.",
       "sizes.desc3": "لحيطة كبيرة أو تصميم فيه تفاصيل وكتابة كتير.",
+      "sizes.d10x20": "مقاس صغير للرف أو الطاولة أو الهدايا.",
+      "sizes.d15x20": "مقاس صغير مناسب للمكتب أو الرف.",
+      "sizes.d20x30": "للمكتب، الرف، أو جانب السرير.",
+      "sizes.d30x40": "الاختيار الأنسب للصالة أو غرفة النوم.",
+      "sizes.d40x50": "لحيطة كبيرة أو تصميم فيه تفاصيل وكتابة كتير.",
       "sizes.cm": "سم",
       "sizes.pick": "اختر تصميمك",
 
@@ -493,6 +525,11 @@
       "sizes.desc1": "For a desk, a shelf, or beside the bed.",
       "sizes.desc2": "The best fit for a living room or bedroom.",
       "sizes.desc3": "For a large wall or a design with lots of detail and text.",
+      "sizes.d10x20": "A small size for a shelf, a table or a gift.",
+      "sizes.d15x20": "A compact size for a desk or a shelf.",
+      "sizes.d20x30": "For a desk, a shelf, or beside the bed.",
+      "sizes.d30x40": "The best fit for a living room or bedroom.",
+      "sizes.d40x50": "For a large wall or a design with lots of detail and text.",
       "sizes.cm": "cm",
       "sizes.pick": "Choose a design",
 
@@ -651,8 +688,8 @@
     priceFilter: "all",
     sizeSel: {},
     expandedShelves: {},
-    defaultSize: "30x40",
-    studio: { photo: null, size: "30x40", frame: "black", fit: "cover", mat: true, px: 50, py: 50 },
+    defaultSize: fallbackSize(),
+    studio: { photo: null, size: fallbackSize(), frame: "black", fit: "cover", mat: true, px: 50, py: 50 },
     lastFocus: null,
     toastTimer: null
   };
@@ -838,7 +875,7 @@
 
   function productCard(p) {
     var selected = S.sizeSel[p.id] || S.defaultSize;
-    if (!SZR[selected]) selected = "30x40";
+    if (!validSize(selected)) selected = fallbackSize();
     var tag = posterTag(p);
     var desc = S.lang === "en" ? (p.descEn || p.descAr || "") : (p.descAr || p.descEn || "");
     var colors = String(S.lang === "en" ? (p.colorsEn || p.colorsAr || "") : (p.colorsAr || p.colorsEn || "")).split(",").map(function (s) { return s.trim(); }).filter(Boolean);
@@ -900,8 +937,9 @@
     box.innerHTML = '<input type="search" id="productSearch" placeholder="' + esc(t("products.search")) + '" aria-label="' + esc(t("products.search")) + '" value="' + esc(S.search) + '">' +
       '<select id="productPrice" aria-label="' + esc(t("products.priceAll")) + '">' +
         '<option value="all"' + (S.priceFilter === "all" ? " selected" : "") + '>' + esc(t("products.priceAll")) + "</option>" +
-        '<option value="20x30"' + (S.priceFilter === "20x30" ? " selected" : "") + '>' + esc(t("products.price200")) + "</option>" +
-        '<option value="30x40"' + (S.priceFilter === "30x40" ? " selected" : "") + '>' + esc(t("products.price330")) + "</option>" +
+        SZ.map(function (sz) {
+          return '<option value="' + sz + '"' + (S.priceFilter === sz ? " selected" : "") + '>' + esc(SZL[sz] + " — " + formatNum(priceOf(sz)) + " " + unit()) + "</option>";
+        }).join("") +
       "</select>";
   }
 
@@ -1005,11 +1043,12 @@
   }
 
   function updateProductSize(pid, size) {
-    if (!SZR[size]) return;
+    if (!validSize(size)) return;
     S.sizeSel[pid] = size;
     var p = posterById(pid);
     if (!p) return;
-    $$('.product[data-pid="' + pid + '"]').forEach(function (card) {
+    $$(".product").forEach(function (card) {
+      if (card.getAttribute("data-pid") !== pid) return;
       var holder = document.createElement("div");
       holder.innerHTML = productCard(p);
       card.replaceWith(holder.firstChild);
@@ -1017,7 +1056,7 @@
   }
 
   function pickSize(size) {
-    if (!SZR[size]) return;
+    if (!validSize(size)) return;
     S.defaultSize = size;
     DATA.posters.forEach(function (p) { S.sizeSel[p.id] = size; });
     renderAllProducts();
@@ -1038,7 +1077,7 @@
         '<div class="size-scale" aria-hidden="true"><i style="width:calc(var(--u)*' + r[0] + ");height:calc(var(--u)*" + r[1] + ')"></i></div>' +
         '<div class="size-card__dim"><bdi dir="ltr">' + SZL[sz] + "</bdi><small>" + esc(t("sizes.cm")) + "</small></div>" +
         '<div class="size-card__price">' + formatNum(priceOf(sz)) + "<small>" + esc(unit()) + "</small></div>" +
-        '<p class="size-card__desc">' + esc(t("sizes.desc" + (i + 1))) + "</p>" +
+        '<p class="size-card__desc">' + esc(t("sizes.d" + sz)) + "</p>" +
         '<button class="btn ' + (popular ? "btn--cream" : "btn--outline") + ' btn--small" type="button" data-action="pick-size" data-size="' + sz + '">' + esc(t("sizes.pick")) + ARROW + "</button>" +
       "</article>";
     }).join("");
@@ -1239,7 +1278,7 @@
       var saved = JSON.parse(store("vybe-cart") || "[]");
       if (!Array.isArray(saved)) return;
       S.cart = saved.filter(function (item) {
-        return item && item.type === "poster" && SZR[item.size] && item.qty > 0 && posterById(item.pid);
+        return item && item.type === "poster" && validSize(item.size) && item.qty > 0 && posterById(item.pid);
       }).map(function (item) {
         return { type: "poster", pid: item.pid, size: item.size, qty: Math.max(1, Math.min(99, Number(item.qty) || 1)) };
       });
@@ -1248,7 +1287,7 @@
   function addPoster(pid, size) {
     var p = posterById(pid);
     if (!p) return;
-    if (!SZR[size]) size = "30x40";
+    if (!validSize(size)) size = fallbackSize();
     var found = S.cart.filter(function (item) {
       return item.type === "poster" && item.pid === pid && item.size === size;
     })[0];
@@ -1628,6 +1667,8 @@
     updateContact();
     var statDesigns = $("statDesigns");
     if (statDesigns) statDesigns.textContent = availablePosters().length;
+    var sizesStat = document.querySelector(".hero-stat b");
+    if (sizesStat && sizesStat !== statDesigns) sizesStat.textContent = SZ.length;
     renderAnnounce();
     renderProductTools();
     renderFilters();
@@ -1806,7 +1847,7 @@
       var el = e.target;
       if (el.id === "productPrice") {
         S.priceFilter = el.value;
-        if (SZR[S.priceFilter]) {
+        if (validSize(S.priceFilter)) {
           S.defaultSize = S.priceFilter;
           DATA.posters.forEach(function (p) { S.sizeSel[p.id] = S.priceFilter; });
         }

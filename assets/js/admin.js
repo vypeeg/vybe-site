@@ -9,6 +9,11 @@
   function uid() { return "poster-" + Date.now().toString(36) + "-" + Math.random().toString(36).slice(2, 7); }
   function num(v, fallback) { var n = Number(v); return Number.isFinite(n) && n >= 0 ? n : fallback; }
 
+  var SIZES = ["10x20", "15x20", "20x30", "30x40", "40x50"];
+  var SIZE_DEFAULT_ON = { "20x30": true, "30x40": true };
+  var SIZE_DEFAULT_PRICE = { "20x30": 200, "30x40": 330 };
+  function sizeLabel(sz) { return sz.replace("x", " × "); }
+
   var GOV_AR = ["القاهرة", "الجيزة", "الإسكندرية", "القليوبية", "الشرقية", "الدقهلية", "الغربية", "المنوفية", "البحيرة", "كفر الشيخ", "دمياط", "بورسعيد", "الإسماعيلية", "السويس", "شمال سيناء", "جنوب سيناء", "الفيوم", "بني سويف", "المنيا", "أسيوط", "سوهاج", "قنا", "الأقصر", "أسوان", "البحر الأحمر", "الوادي الجديد", "مطروح"];
 
   function normalize() {
@@ -19,8 +24,12 @@
     state.settings.instagram = String(state.settings.instagram || "").replace(/^@/, "").trim();
     state.settings.sheetWebhook = String(state.settings.sheetWebhook || "").trim();
     state.settings.prices = state.settings.prices || {};
-    state.settings.prices["20x30"] = num(state.settings.prices["20x30"], 200);
-    state.settings.prices["30x40"] = num(state.settings.prices["30x40"], 330);
+    state.settings.sizeEnabled = state.settings.sizeEnabled || {};
+    SIZES.forEach(function (sz) {
+      state.settings.prices[sz] = num(state.settings.prices[sz], SIZE_DEFAULT_PRICE[sz] || 0);
+      var on = sz in state.settings.sizeEnabled ? state.settings.sizeEnabled[sz] !== false : !!SIZE_DEFAULT_ON[sz];
+      state.settings.sizeEnabled[sz] = on;
+    });
     state.settings.shipping = state.settings.shipping || {};
     GOV_AR.forEach(function (g) { state.settings.shipping[g] = num(state.settings.shipping[g], 90); });
     state.settings.shippingDefault = num(state.settings.shippingDefault, 90);
@@ -29,9 +38,14 @@
     state.categories = state.categories.map(function (c, i) {
       return { id: String(c.id || "cat-" + (i + 1)).trim(), ar: String(c.ar || ""), en: String(c.en || "") };
     });
+    var seenIds = {};
     state.posters = state.posters.map(function (p) {
+      var baseId = String(p.id || "").trim() || uid();
+      var uniq = baseId, nn = 2;
+      while (seenIds[uniq]) uniq = baseId + "-" + (nn++);
+      seenIds[uniq] = true;
       var o = {
-        id: String(p.id || uid()).trim(),
+        id: uniq,
         cat: String(p.cat || (state.categories[0] ? state.categories[0].id : "")),
         ar: String(p.ar || ""),
         en: String(p.en || ""),
@@ -47,20 +61,12 @@
         h: Math.max(1, Math.round(num(p.h, 933)))
       };
       if (p.featured) o.featured = true;
-      var old20 = num(p.oldPrice && p.oldPrice["20x30"], 0);
-      var old40 = num(p.oldPrice && p.oldPrice["30x40"], 0);
-      if (old20 > 0 || old40 > 0) {
-        o.oldPrice = {};
-        if (old20 > 0) o.oldPrice["20x30"] = old20;
-        if (old40 > 0) o.oldPrice["30x40"] = old40;
-      }
-      var new20 = num(p.price && p.price["20x30"], 0);
-      var new40 = num(p.price && p.price["30x40"], 0);
-      if (new20 > 0 || new40 > 0) {
-        o.price = {};
-        if (new20 > 0) o.price["20x30"] = new20;
-        if (new40 > 0) o.price["30x40"] = new40;
-      }
+      SIZES.forEach(function (sz) {
+        var ov = num(p.oldPrice && p.oldPrice[sz], 0);
+        var nv = num(p.price && p.price[sz], 0);
+        if (ov > 0) { o.oldPrice = o.oldPrice || {}; o.oldPrice[sz] = ov; }
+        if (nv > 0) { o.price = o.price || {}; o.price[sz] = nv; }
+      });
       return o;
     });
   }
@@ -71,10 +77,18 @@
     $("setTiktok").value = state.settings.tiktok || "";
     $("setInstagram").value = state.settings.instagram || "";
     $("setSheetWebhook").value = state.settings.sheetWebhook || "";
-    $("price20x30").value = state.settings.prices["20x30"];
-    $("price30x40").value = state.settings.prices["30x40"];
     $("shipDefault").value = state.settings.shippingDefault;
+    renderSizes();
     renderShipping();
+  }
+
+  function renderSizes() {
+    var tbody = $("sizesTable").querySelector("tbody");
+    tbody.innerHTML = SIZES.map(function (sz) {
+      return '<tr><td dir="ltr"><strong>' + esc(sizeLabel(sz)) + '</strong></td>' +
+        '<td><label><input type="checkbox" data-size-en="' + sz + '"' + (state.settings.sizeEnabled[sz] ? " checked" : "") + '> متاح</label></td>' +
+        '<td><input type="number" min="0" step="1" data-size-price="' + sz + '" value="' + esc(state.settings.prices[sz] || "") + '" placeholder="0"></td></tr>';
+    }).join("");
   }
 
   function renderShipping() {
@@ -90,8 +104,12 @@
     state.settings.tiktok = $("setTiktok").value.replace(/^@/, "").trim();
     state.settings.instagram = $("setInstagram").value.replace(/^@/, "").trim();
     state.settings.sheetWebhook = $("setSheetWebhook").value.trim();
-    state.settings.prices["20x30"] = num($("price20x30").value, 0);
-    state.settings.prices["30x40"] = num($("price30x40").value, 0);
+    SIZES.forEach(function (sz) {
+      var pe = document.querySelector('[data-size-price="' + sz + '"]');
+      var ce = document.querySelector('[data-size-en="' + sz + '"]');
+      if (pe) state.settings.prices[sz] = num(pe.value, 0);
+      if (ce) state.settings.sizeEnabled[sz] = ce.checked;
+    });
     state.settings.shippingDefault = num($("shipDefault").value, 90);
     $$shipInputs().forEach(function (el) {
       state.settings.shipping[el.getAttribute("data-ship")] = num(el.value, 90);
@@ -123,15 +141,20 @@
     box.innerHTML = "";
     state.posters.forEach(function (p, i) {
       var tpl = $("posterTpl").content.cloneNode(true);
+      var sbox = tpl.querySelector("[data-sizes-box]");
+      var shown = SIZES.filter(function (sz) { return state.settings.sizeEnabled[sz]; });
+      sbox.innerHTML = '<span class="size-prices__title">الأسعار لكل مقاس (فاضي = يستخدم السعر العام ولا يظهر خصم)</span>' + shown.map(function (sz) {
+        return '<div class="size-prices__row"><span class="size-prices__label" dir="ltr">' + esc(sizeLabel(sz)) + '</span>' +
+          '<label class="field"><span>السعر قبل الخصم</span><input data-k="old:' + sz + '" type="number" min="0" step="1" placeholder="بدون خصم"></label>' +
+          '<label class="field"><span>السعر بعد الخصم</span><input data-k="new:' + sz + '" type="number" min="0" step="1" placeholder="السعر العام: ' + esc(state.settings.prices[sz] || 0) + '"></label></div>';
+      }).join("");
       tpl.querySelector(".poster-title").textContent = (p.ar || p.id || "منتج") + " — " + (p.id || "");
       tpl.querySelectorAll("[data-k]").forEach(function (el) {
         var k = el.getAttribute("data-k");
         if (k === "cat") { el.innerHTML = catOptions(p.cat); el.value = p.cat; }
         else if (k === "featured") { el.value = p.featured ? "true" : ""; }
-        else if (k === "old20") { el.value = (p.oldPrice && p.oldPrice["20x30"]) || ""; }
-        else if (k === "old40") { el.value = (p.oldPrice && p.oldPrice["30x40"]) || ""; }
-        else if (k === "new20") { el.value = (p.price && p.price["20x30"]) || ""; }
-        else if (k === "new40") { el.value = (p.price && p.price["30x40"]) || ""; }
+        else if (k.indexOf("old:") === 0) { el.value = (p.oldPrice && p.oldPrice[k.slice(4)]) || ""; }
+        else if (k.indexOf("new:") === 0) { el.value = (p.price && p.price[k.slice(4)]) || ""; }
         else if (k === "available") { el.value = p.available === false ? "false" : "true"; }
         else { el.value = p[k] == null ? "" : p[k]; }
         el.setAttribute("data-i", i);
@@ -170,24 +193,16 @@
       var i = Number(t.getAttribute("data-i"));
       var k = t.getAttribute("data-k");
       if (!state.posters[i]) return;
-      if (k === "old20" || k === "old40") {
-        var sz = k === "old20" ? "20x30" : "30x40";
-        var val = Math.max(0, Math.round(num(t.value, 0)));
-        var op = state.posters[i].oldPrice || {};
-        if (val > 0) op[sz] = val;
-        else delete op[sz];
-        if (Object.keys(op).length) state.posters[i].oldPrice = op;
-        else delete state.posters[i].oldPrice;
-        return;
-      }
-      if (k === "new20" || k === "new40") {
-        var nsz = k === "new20" ? "20x30" : "30x40";
-        var nval = Math.max(0, Math.round(num(t.value, 0)));
-        var np = state.posters[i].price || {};
-        if (nval > 0) np[nsz] = nval;
-        else delete np[nsz];
-        if (Object.keys(np).length) state.posters[i].price = np;
-        else delete state.posters[i].price;
+      if (k.indexOf("old:") === 0 || k.indexOf("new:") === 0) {
+        var isOld = k.indexOf("old:") === 0;
+        var field = isOld ? "oldPrice" : "price";
+        var psz = k.slice(4);
+        var pval = Math.max(0, Math.round(num(t.value, 0)));
+        var box = state.posters[i][field] || {};
+        if (pval > 0) box[psz] = pval;
+        else delete box[psz];
+        if (Object.keys(box).length) state.posters[i][field] = box;
+        else delete state.posters[i][field];
         return;
       }
       if (k === "w" || k === "h") state.posters[i][k] = Math.max(1, Math.round(num(t.value, state.posters[i][k] || 1)));
@@ -235,7 +250,9 @@
     }
     if (act === "dup") {
       var copy = JSON.parse(JSON.stringify(state.posters[i]));
-      copy.id = copy.id + "-copy";
+      var cid = copy.id + "-copy", cn = 2;
+      while (state.posters.some(function (x) { return x.id === cid; })) cid = copy.id + "-copy" + (cn++);
+      copy.id = cid;
       delete copy.featured;
       state.posters.splice(i + 1, 0, copy); render();
     }
@@ -380,11 +397,14 @@
     normalize(); render();
   });
 
-  ["setWhatsapp","setDisplay","setTiktok","setInstagram","setSheetWebhook","price20x30","price30x40","shipDefault"].forEach(function (id) {
+  ["setWhatsapp","setDisplay","setTiktok","setInstagram","setSheetWebhook","shipDefault"].forEach(function (id) {
     $(id).addEventListener("change", readSettings);
   });
   document.addEventListener("change", function (e) {
-    if (e.target && e.target.hasAttribute("data-ship")) readSettings();
+    var el = e.target;
+    if (!el || !el.hasAttribute) return;
+    if (el.hasAttribute("data-ship")) readSettings();
+    if (el.hasAttribute("data-size-en") || el.hasAttribute("data-size-price")) { readSettings(); renderPosters(); }
   });
 
   /* ---------- orders from Google Sheet ---------- */
