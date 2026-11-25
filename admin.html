@@ -47,10 +47,15 @@
         <label class="field"><span>Instagram username</span><input id="setInstagram" type="text" dir="ltr" placeholder=""></label>
         <label class="field"><span>Google Sheet Webhook</span><input id="setSheetWebhook" type="text" dir="ltr" placeholder="https://script.google.com/.../exec"></label>
       </div>
-      <p class="muted small">السعر العام بيتطبق على أي منتج مالوش سعر خاص بعد الخصم. ولو كتبت سعر بعد الخصم جوه المنتج نفسه، بيتاخد هو بدل العام.</p>
+      <h3 class="sub-head">المقاسات والأسعار</h3>
+      <p class="muted small">اختار المقاسات اللي عايزها تظهر في الموقع. المقاس اللي مش متفعّل (أو سعره صفر) بيختفي من الموقع كله. السعر هنا هو السعر العام بعد الخصم، وتقدر تحط سعر خاص لكل منتج من كارت المنتج.</p>
+      <div class="table-wrap">
+        <table class="table" id="sizesTable">
+          <thead><tr><th>المقاس (سم)</th><th>يظهر في الموقع؟</th><th>السعر العام بعد الخصم (جنيه)</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
       <div class="grid grid-3" style="margin-top:12px">
-        <label class="field"><span>السعر العام بعد الخصم 20×30</span><input id="price20x30" type="number" min="0" step="1"></label>
-        <label class="field"><span>السعر العام بعد الخصم 30×40</span><input id="price30x40" type="number" min="0" step="1"></label>
         <label class="field"><span>شحن افتراضي لأي محافظة غير محددة</span><input id="shipDefault" type="number" min="0" step="1"></label>
       </div>
     </section>
@@ -124,10 +129,6 @@
         <label class="field"><span>مسار الصورة</span><input data-k="img" type="text" dir="ltr" placeholder="images/file.jpg"></label>
         <label class="field"><span>متوفر؟</span><select data-k="available"><option value="true">نعم</option><option value="false">لا (مخفي)</option></select></label>
         <label class="field"><span>Featured (الأكثر مبيعاً)</span><select data-k="featured"><option value="">لا</option><option value="true">نعم</option></select></label>
-        <label class="field"><span>السعر قبل الخصم 20×30</span><input data-k="old20" type="number" min="0" step="1" placeholder="فاضي = بدون خصم"></label>
-        <label class="field"><span>السعر بعد الخصم 20×30</span><input data-k="new20" type="number" min="0" step="1" placeholder="فاضي = السعر العام"></label>
-        <label class="field"><span>السعر قبل الخصم 30×40</span><input data-k="old40" type="number" min="0" step="1" placeholder="فاضي = بدون خصم"></label>
-        <label class="field"><span>السعر بعد الخصم 30×40</span><input data-k="new40" type="number" min="0" step="1" placeholder="فاضي = السعر العام"></label>
         <label class="field"><span>وصف عربي</span><input data-k="descAr" type="text"></label>
         <label class="field"><span>Description EN</span><input data-k="descEn" type="text" dir="ltr"></label>
         <label class="field"><span>ألوان/خيارات (بفاصلة)</span><input data-k="colorsAr" type="text" placeholder="أسود، أبيض، خشبي"></label>
@@ -135,6 +136,7 @@
         <label class="field"><span>عرض الصورة w</span><input data-k="w" type="number" min="1" step="1"></label>
         <label class="field"><span>ارتفاع الصورة h</span><input data-k="h" type="number" min="1" step="1"></label>
       </div>
+      <div class="size-prices" data-sizes-box></div>
       <div class="upload-row">
         <label class="btn btn--ghost btn--sm upload-btn">رفع صورة جديدة<input type="file" accept="image/*" data-upload hidden></label>
         <span class="muted small">بترفع الصورة على جيت هاب في <code>images/</code> وتكتب المسار والمقاس تلقائي.</span>
