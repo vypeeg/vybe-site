@@ -6,7 +6,7 @@
 window.VYBE_CATALOG = {
   "settings": {
     "whatsapp": "201508016013",
-    "display": "01006935540",
+    "display": "01508016013",
     "tiktok": "eg.vyb",
     "instagram": "eg.vyb",
     "prices": {
@@ -68,8 +68,8 @@ window.VYBE_CATALOG = {
     },
     {
       "id": "football",
-      "ar": "كورة",
-      "en": "Football"
+      "ar": "لاعيبة كورة",
+      "en": "Football player"
     },
     {
       "id": "singer",
@@ -100,6 +100,26 @@ window.VYBE_CATALOG = {
       "id": "decor",
       "ar": "ديكور",
       "en": "Decor"
+    },
+    {
+      "id": "barsa",
+      "ar": "برشلونه",
+      "en": "Barcelona"
+    },
+    {
+      "id": "real",
+      "ar": "ريال مدريد",
+      "en": "real madrid"
+    },
+    {
+      "id": "ahly",
+      "ar": "الاهلي",
+      "en": "alahly"
+    },
+    {
+      "id": "zamalek",
+      "ar": "الزمالك",
+      "en": "zamalek"
     }
   ],
   "posters": [
