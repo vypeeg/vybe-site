@@ -11,7 +11,10 @@ window.VYBE_CATALOG = {
     "instagram": "eg.vyb",
     "prices": {
       "20x30": 130,
-      "30x40": 200
+      "30x40": 200,
+      "10x20": 0,
+      "15x20": 80,
+      "40x50": 300
     },
     "shipping": {
       "القاهرة": 65,
@@ -43,7 +46,14 @@ window.VYBE_CATALOG = {
       "مطروح": 130
     },
     "shippingDefault": 90,
-    "sheetWebhook": "https://script.google.com/macros/s/AKfycbze9G2oSra38YOBeXaU3y6Jljbe1MIq8jmm_IUwfbLqjbMo7Z_pk6vOdWMaGx6N_LlS/exec"
+    "sheetWebhook": "https://script.google.com/macros/s/AKfycbze9G2oSra38YOBeXaU3y6Jljbe1MIq8jmm_IUwfbLqjbMo7Z_pk6vOdWMaGx6N_LlS/exec",
+    "sizeEnabled": {
+      "10x20": false,
+      "15x20": true,
+      "20x30": true,
+      "30x40": true,
+      "40x50": true
+    }
   },
   "categories": [
     {
@@ -148,7 +158,7 @@ window.VYBE_CATALOG = {
       }
     },
     {
-      "id": "cars",
+      "id": "cars-2",
       "cat": "cars",
       "ar": "FERRARI",
       "en": "FERRARI",
@@ -172,7 +182,7 @@ window.VYBE_CATALOG = {
       }
     },
     {
-      "id": "cars",
+      "id": "cars-3",
       "cat": "cars",
       "ar": " TOYOTA SUPRA",
       "en": " TOYOTA SUPRA",
@@ -196,7 +206,7 @@ window.VYBE_CATALOG = {
       }
     },
     {
-      "id": "cars",
+      "id": "cars-4",
       "cat": "cars",
       "ar": "FERRARI 488GTB",
       "en": "FERRARI 488GTB",
@@ -220,7 +230,7 @@ window.VYBE_CATALOG = {
       }
     },
     {
-      "id": "cars",
+      "id": "cars-5",
       "cat": "cars",
       "ar": "PORSCHE GT3🩷",
       "en": "PORSCHE GT3🩷",
@@ -244,7 +254,7 @@ window.VYBE_CATALOG = {
       }
     },
     {
-      "id": "cars",
+      "id": "cars-6",
       "cat": "cars",
       "ar": "PORSCHE GT3R",
       "en": "PORSCHE GT3R",
@@ -268,7 +278,7 @@ window.VYBE_CATALOG = {
       }
     },
     {
-      "id": "cars",
+      "id": "cars-7",
       "cat": "cars",
       "ar": "PORSCHE 911",
       "en": "PORSCHE 911",
@@ -292,7 +302,7 @@ window.VYBE_CATALOG = {
       }
     },
     {
-      "id": "cars",
+      "id": "cars-8",
       "cat": "cars",
       "ar": "LEWIS HAMILTON CAR",
       "en": "LEWIS HAMILTON CAR",
@@ -316,7 +326,7 @@ window.VYBE_CATALOG = {
       }
     },
     {
-      "id": "cars",
+      "id": "cars-9",
       "cat": "cars",
       "ar": "VERSTAPPEN CAR",
       "en": "VERSTAPPEN CAR",
@@ -340,7 +350,7 @@ window.VYBE_CATALOG = {
       }
     },
     {
-      "id": "cars",
+      "id": "cars-10",
       "cat": "cars",
       "ar": "SPEED CAR",
       "en": "SPEED CAR",
@@ -364,7 +374,7 @@ window.VYBE_CATALOG = {
       }
     },
     {
-      "id": "cars",
+      "id": "cars-11",
       "cat": "cars",
       "ar": "BME E30",
       "en": "BME E30",
@@ -388,7 +398,7 @@ window.VYBE_CATALOG = {
       }
     },
     {
-      "id": "cars",
+      "id": "cars-12",
       "cat": "cars",
       "ar": "ROLLS ROYCE",
       "en": "ROLLS ROYCE",
@@ -413,7 +423,7 @@ window.VYBE_CATALOG = {
       }
     },
     {
-      "id": "cars",
+      "id": "cars-13",
       "cat": "cars",
       "ar": "MERCEDES AMG ONE",
       "en": "MERCEDES AMG ONE",
@@ -437,7 +447,7 @@ window.VYBE_CATALOG = {
       }
     },
     {
-      "id": "cars",
+      "id": "cars-14",
       "cat": "cars",
       "ar": "MUSTANG🩷",
       "en": "MUSTANG🩷",
@@ -461,7 +471,7 @@ window.VYBE_CATALOG = {
       }
     },
     {
-      "id": "cars",
+      "id": "cars-15",
       "cat": "cars",
       "ar": "DODGE",
       "en": "DODGE",
@@ -485,7 +495,7 @@ window.VYBE_CATALOG = {
       }
     },
     {
-      "id": "cars",
+      "id": "cars-16",
       "cat": "cars",
       "ar": "LAMPO",
       "en": "LAMPO",
@@ -509,7 +519,7 @@ window.VYBE_CATALOG = {
       }
     },
     {
-      "id": "cars",
+      "id": "cars-17",
       "cat": "cars",
       "ar": "MERCEDES AMG",
       "en": "MERCEDES AMG",
@@ -533,7 +543,7 @@ window.VYBE_CATALOG = {
       }
     },
     {
-      "id": "cars",
+      "id": "cars-18",
       "cat": "cars",
       "ar": "MCLAREN 720S",
       "en": "MCLAREN 720S",
@@ -557,7 +567,7 @@ window.VYBE_CATALOG = {
       }
     },
     {
-      "id": "cars",
+      "id": "cars-19",
       "cat": "cars",
       "ar": "MCLAREIN",
       "en": "MCLAREIN",
@@ -581,7 +591,7 @@ window.VYBE_CATALOG = {
       }
     },
     {
-      "id": "cars",
+      "id": "cars-20",
       "cat": "cars",
       "ar": "LAMBORGHINI",
       "en": "LAMBORGHINI",
@@ -605,7 +615,7 @@ window.VYBE_CATALOG = {
       }
     },
     {
-      "id": "cars",
+      "id": "cars-21",
       "cat": "cars",
       "ar": "TOYOTA SUPRA MK5",
       "en": "TOYOTA SUPRA MK5",
@@ -629,7 +639,7 @@ window.VYBE_CATALOG = {
       }
     },
     {
-      "id": "cars",
+      "id": "cars-22",
       "cat": "cars",
       "ar": "BMW M4 GT3",
       "en": "BMW M4 GT3",
@@ -653,7 +663,7 @@ window.VYBE_CATALOG = {
       }
     },
     {
-      "id": "cars",
+      "id": "cars-23",
       "cat": "cars",
       "ar": "PORSHE",
       "en": "PORSHE",
@@ -701,7 +711,7 @@ window.VYBE_CATALOG = {
       }
     },
     {
-      "id": "cars",
+      "id": "cars-24",
       "cat": "cars",
       "ar": "TOYOTA SUPRA",
       "en": "TOYOTA SUPRA",
@@ -725,7 +735,7 @@ window.VYBE_CATALOG = {
       }
     },
     {
-      "id": "cars",
+      "id": "cars-25",
       "cat": "cars",
       "ar": "FU*K LOVE I WANT CAR",
       "en": "FU*K LOVE I WANT CAR",
@@ -750,7 +760,7 @@ window.VYBE_CATALOG = {
       }
     },
     {
-      "id": "cars",
+      "id": "cars-26",
       "cat": "cars",
       "ar": "PORSCHE GT3RS",
       "en": "PORSCHE GT3RS",
@@ -774,7 +784,7 @@ window.VYBE_CATALOG = {
       }
     },
     {
-      "id": "cars",
+      "id": "cars-27",
       "cat": "cars",
       "ar": "SHELPY GT500",
       "en": "SHELPY GT500",
@@ -799,7 +809,7 @@ window.VYBE_CATALOG = {
       }
     },
     {
-      "id": "cars",
+      "id": "cars-28",
       "cat": "cars",
       "ar": "AUDI R8",
       "en": "AUDI R8",
@@ -823,7 +833,7 @@ window.VYBE_CATALOG = {
       }
     },
     {
-      "id": "cars",
+      "id": "cars-29",
       "cat": "cars",
       "ar": "BME M5",
       "en": "BMW M5",
