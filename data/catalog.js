@@ -134,6 +134,558 @@ window.VYBE_CATALOG = {
   ],
   "posters": [
     {
+      "id": "anime",
+      "cat": "anime",
+      "ar": "Anime",
+      "en": "Anime",
+      "tagAr": "بوسترات أنمي",
+      "tagEn": "Anime Poster",
+      "img": "images/a1.png",
+      "descAr": "ادخل عالم الأنمي في ديكورك مع تصميمات مستوحاة من أشهر الشخصيات واللحظات المميزة. اختيارات فنية لعشاق الأنمي والمانجا.",
+      "descEn": "Bring your favorite anime worlds into your space with creative anime-inspired artwork. Featuring memorable characters, iconic moments, and distinctive artistic styles.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "anime-2",
+      "cat": "anime",
+      "ar": "Anime",
+      "en": "Anime",
+      "tagAr": "بوسترات أنمي",
+      "tagEn": "Anime Poster",
+      "img": "images/a2.png",
+      "descAr": "ادخل عالم الأنمي في ديكورك مع تصميمات مستوحاة من أشهر الشخصيات واللحظات المميزة. اختيارات فنية لعشاق الأنمي والمانجا.",
+      "descEn": "Bring your favorite anime worlds into your space with creative anime-inspired artwork. Featuring memorable characters, iconic moments, and distinctive artistic styles.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "anime-3",
+      "cat": "anime",
+      "ar": "Anime",
+      "en": "Anime",
+      "tagAr": "بوسترات أنمي",
+      "tagEn": "Anime Poster",
+      "img": "images/a3.png",
+      "descAr": "ادخل عالم الأنمي في ديكورك مع تصميمات مستوحاة من أشهر الشخصيات واللحظات المميزة. اختيارات فنية لعشاق الأنمي والمانجا.",
+      "descEn": "Bring your favorite anime worlds into your space with creative anime-inspired artwork. Featuring memorable characters, iconic moments, and distinctive artistic styles.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "anime-4",
+      "cat": "anime",
+      "ar": "Anime",
+      "en": "Anime",
+      "tagAr": "بوسترات أنمي",
+      "tagEn": "Anime Poster",
+      "img": "images/a4.png",
+      "descAr": "ادخل عالم الأنمي في ديكورك مع تصميمات مستوحاة من أشهر الشخصيات واللحظات المميزة. اختيارات فنية لعشاق الأنمي والمانجا.",
+      "descEn": "Bring your favorite anime worlds into your space with creative anime-inspired artwork. Featuring memorable characters, iconic moments, and distinctive artistic styles.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "anime-5",
+      "cat": "anime",
+      "ar": "Anime",
+      "en": "Anime",
+      "tagAr": "بوسترات أنمي",
+      "tagEn": "Anime Poster",
+      "img": "images/a5.png",
+      "descAr": "ادخل عالم الأنمي في ديكورك مع تصميمات مستوحاة من أشهر الشخصيات واللحظات المميزة. اختيارات فنية لعشاق الأنمي والمانجا.",
+      "descEn": "Bring your favorite anime worlds into your space with creative anime-inspired artwork. Featuring memorable characters, iconic moments, and distinctive artistic styles.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "anime-6",
+      "cat": "anime",
+      "ar": "Anime",
+      "en": "Anime",
+      "tagAr": "بوسترات أنمي",
+      "tagEn": "Anime Poster",
+      "img": "images/a6.png",
+      "descAr": "ادخل عالم الأنمي في ديكورك مع تصميمات مستوحاة من أشهر الشخصيات واللحظات المميزة. اختيارات فنية لعشاق الأنمي والمانجا.",
+      "descEn": "Bring your favorite anime worlds into your space with creative anime-inspired artwork. Featuring memorable characters, iconic moments, and distinctive artistic styles.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "anime-7",
+      "cat": "anime",
+      "ar": "Anime",
+      "en": "Anime",
+      "tagAr": "بوسترات أنمي",
+      "tagEn": "Anime Poster",
+      "img": "images/a7.png",
+      "descAr": "ادخل عالم الأنمي في ديكورك مع تصميمات مستوحاة من أشهر الشخصيات واللحظات المميزة. اختيارات فنية لعشاق الأنمي والمانجا.",
+      "descEn": "Bring your favorite anime worlds into your space with creative anime-inspired artwork. Featuring memorable characters, iconic moments, and distinctive artistic styles.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "anime-8",
+      "cat": "anime",
+      "ar": "Anime",
+      "en": "Anime",
+      "tagAr": "بوسترات أنمي",
+      "tagEn": "Anime Poster",
+      "img": "images/a8.png",
+      "descAr": "ادخل عالم الأنمي في ديكورك مع تصميمات مستوحاة من أشهر الشخصيات واللحظات المميزة. اختيارات فنية لعشاق الأنمي والمانجا.",
+      "descEn": "Bring your favorite anime worlds into your space with creative anime-inspired artwork. Featuring memorable characters, iconic moments, and distinctive artistic styles.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "anime-9",
+      "cat": "poster3",
+      "ar": "Anime",
+      "en": "Anime",
+      "tagAr": "بوسترات أنمي",
+      "tagEn": "Anime Poster",
+      "img": "images/a9.png",
+      "descAr": "ادخل عالم الأنمي في ديكورك مع تصميمات مستوحاة من أشهر الشخصيات واللحظات المميزة. اختيارات فنية لعشاق الأنمي والمانجا.",
+      "descEn": "Bring your favorite anime worlds into your space with creative anime-inspired artwork. Featuring memorable characters, iconic moments, and distinctive artistic styles.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "anime-10",
+      "cat": "anime",
+      "ar": "Anime",
+      "en": "Anime",
+      "tagAr": "بوسترات أنمي",
+      "tagEn": "Anime Poster",
+      "img": "images/a10.png",
+      "descAr": "ادخل عالم الأنمي في ديكورك مع تصميمات مستوحاة من أشهر الشخصيات واللحظات المميزة. اختيارات فنية لعشاق الأنمي والمانجا.",
+      "descEn": "Bring your favorite anime worlds into your space with creative anime-inspired artwork. Featuring memorable characters, iconic moments, and distinctive artistic styles.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "anime-11",
+      "cat": "anime",
+      "ar": "Anime",
+      "en": "Anime",
+      "tagAr": "بوسترات أنمي",
+      "tagEn": "Anime Poster",
+      "img": "images/a11.png",
+      "descAr": "ادخل عالم الأنمي في ديكورك مع تصميمات مستوحاة من أشهر الشخصيات واللحظات المميزة. اختيارات فنية لعشاق الأنمي والمانجا.",
+      "descEn": "Bring your favorite anime worlds into your space with creative anime-inspired artwork. Featuring memorable characters, iconic moments, and distinctive artistic styles.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "anime-12",
+      "cat": "poster3",
+      "ar": "Anime",
+      "en": "Anime",
+      "tagAr": "بوسترات أنمي",
+      "tagEn": "Anime Poster",
+      "img": "images/a12.png",
+      "descAr": "ادخل عالم الأنمي في ديكورك مع تصميمات مستوحاة من أشهر الشخصيات واللحظات المميزة. اختيارات فنية لعشاق الأنمي والمانجا.",
+      "descEn": "Bring your favorite anime worlds into your space with creative anime-inspired artwork. Featuring memorable characters, iconic moments, and distinctive artistic styles.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "anime-13",
+      "cat": "anime",
+      "ar": "Anime",
+      "en": "Anime",
+      "tagAr": "بوسترات أنمي",
+      "tagEn": "Anime Poster",
+      "img": "images/a13.png",
+      "descAr": "ادخل عالم الأنمي في ديكورك مع تصميمات مستوحاة من أشهر الشخصيات واللحظات المميزة. اختيارات فنية لعشاق الأنمي والمانجا.",
+      "descEn": "Bring your favorite anime worlds into your space with creative anime-inspired artwork. Featuring memorable characters, iconic moments, and distinctive artistic styles.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "anime-14",
+      "cat": "anime",
+      "ar": "anime",
+      "en": "anime",
+      "tagAr": "بوسترات أنمي",
+      "tagEn": "Anime Poster",
+      "img": "images/a14.png",
+      "descAr": "ادخل عالم الأنمي في ديكورك مع تصميمات مستوحاة من أشهر الشخصيات واللحظات المميزة. اختيارات فنية لعشاق الأنمي والمانجا.",
+      "descEn": "Bring your favorite anime worlds into your space with creative anime-inspired artwork. Featuring memorable characters, iconic moments, and distinctive artistic styles.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "anime-15",
+      "cat": "anime",
+      "ar": "Anime",
+      "en": "Anime",
+      "tagAr": "بوسترات أنمي",
+      "tagEn": "Anime Poster",
+      "img": "images/a15.png",
+      "descAr": "ادخل عالم الأنمي في ديكورك مع تصميمات مستوحاة من أشهر الشخصيات واللحظات المميزة. اختيارات فنية لعشاق الأنمي والمانجا.",
+      "descEn": "Bring your favorite anime worlds into your space with creative anime-inspired artwork. Featuring memorable characters, iconic moments, and distinctive artistic styles.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "anime-16",
+      "cat": "anime",
+      "ar": "Anime",
+      "en": "Anime",
+      "tagAr": "بوسترات أنمي",
+      "tagEn": "Anime Poster",
+      "img": "images/",
+      "descAr": "ادخل عالم الأنمي في ديكورك مع تصميمات مستوحاة من أشهر الشخصيات واللحظات المميزة. اختيارات فنية لعشاق الأنمي والمانجا.",
+      "descEn": "Bring your favorite anime worlds into your space with creative anime-inspired artwork. Featuring memorable characters, iconic moments, and distinctive artistic styles.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 700,
+      "h": 933,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "anime-17",
+      "cat": "anime",
+      "ar": "Anime",
+      "en": "Anime",
+      "tagAr": "بوسترات أنمي",
+      "tagEn": "Anime Poster",
+      "img": "images/a18.png",
+      "descAr": "ادخل عالم الأنمي في ديكورك مع تصميمات مستوحاة من أشهر الشخصيات واللحظات المميزة. اختيارات فنية لعشاق الأنمي والمانجا.",
+      "descEn": "Bring your favorite anime worlds into your space with creative anime-inspired artwork. Featuring memorable characters, iconic moments, and distinctive artistic styles.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1199,
+      "h": 1312,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "anime-18",
+      "cat": "anime",
+      "ar": "Anime",
+      "en": "Anime",
+      "tagAr": "بوسترات أنمي",
+      "tagEn": "Anime Poster",
+      "img": "images/a19.png",
+      "descAr": "ادخل عالم الأنمي في ديكورك مع تصميمات مستوحاة من أشهر الشخصيات واللحظات المميزة. اختيارات فنية لعشاق الأنمي والمانجا.",
+      "descEn": "Bring your favorite anime worlds into your space with creative anime-inspired artwork. Featuring memorable characters, iconic moments, and distinctive artistic styles.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1199,
+      "h": 1312,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "anime-19",
+      "cat": "anime",
+      "ar": "Anime",
+      "en": "Anime",
+      "tagAr": "بوسترات أنمي",
+      "tagEn": "Anime Poster",
+      "img": "images/",
+      "descAr": "ادخل عالم الأنمي في ديكورك مع تصميمات مستوحاة من أشهر الشخصيات واللحظات المميزة. اختيارات فنية لعشاق الأنمي والمانجا.",
+      "descEn": "Bring your favorite anime worlds into your space with creative anime-inspired artwork. Featuring memorable characters, iconic moments, and distinctive artistic styles.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 700,
+      "h": 933,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "anime-20",
+      "cat": "anime",
+      "ar": "Anime",
+      "en": "Anime",
+      "tagAr": "بوسترات أنمي",
+      "tagEn": "Anime Poster",
+      "img": "images/a21.png",
+      "descAr": "ادخل عالم الأنمي في ديكورك مع تصميمات مستوحاة من أشهر الشخصيات واللحظات المميزة. اختيارات فنية لعشاق الأنمي والمانجا.",
+      "descEn": "Bring your favorite anime worlds into your space with creative anime-inspired artwork. Featuring memorable characters, iconic moments, and distinctive artistic styles.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1199,
+      "h": 1312,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "anime-21",
+      "cat": "anime",
+      "ar": "Anime",
+      "en": "Anime",
+      "tagAr": "بوسترات أنمي",
+      "tagEn": "Anime Poster",
+      "img": "images/a22.png",
+      "descAr": "ادخل عالم الأنمي في ديكورك مع تصميمات مستوحاة من أشهر الشخصيات واللحظات المميزة. اختيارات فنية لعشاق الأنمي والمانجا.",
+      "descEn": "Bring your favorite anime worlds into your space with creative anime-inspired artwork. Featuring memorable characters, iconic moments, and distinctive artistic styles.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1199,
+      "h": 1312,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "anime-22",
+      "cat": "anime",
+      "ar": "Anime",
+      "en": "Anime",
+      "tagAr": "بوسترات أنمي",
+      "tagEn": "Anime Poster",
+      "img": "images/a23.png",
+      "descAr": "ادخل عالم الأنمي في ديكورك مع تصميمات مستوحاة من أشهر الشخصيات واللحظات المميزة. اختيارات فنية لعشاق الأنمي والمانجا.",
+      "descEn": "Bring your favorite anime worlds into your space with creative anime-inspired artwork. Featuring memorable characters, iconic moments, and distinctive artistic styles.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1199,
+      "h": 1312,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "anime-23",
+      "cat": "anime",
+      "ar": "Anime",
+      "en": "Anime",
+      "tagAr": "بوسترات أنمي",
+      "tagEn": "Anime Poster",
+      "img": "images/a24.png",
+      "descAr": "ادخل عالم الأنمي في ديكورك مع تصميمات مستوحاة من أشهر الشخصيات واللحظات المميزة. اختيارات فنية لعشاق الأنمي والمانجا.",
+      "descEn": "Bring your favorite anime worlds into your space with creative anime-inspired artwork. Featuring memorable characters, iconic moments, and distinctive artistic styles.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1199,
+      "h": 1312,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
       "id": "decor",
       "cat": "decor",
       "ar": "Decor",
@@ -1003,7 +1555,15 @@ window.VYBE_CATALOG = {
       "colorsEn": "",
       "available": true,
       "w": 1080,
-      "h": 1350
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
     },
     {
       "id": "islamic-7",
