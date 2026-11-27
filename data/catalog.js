@@ -918,30 +918,6 @@ window.VYBE_CATALOG = {
       }
     },
     {
-      "id": "islamic",
-      "cat": "islamic",
-      "ar": "ISLAMIC POSTERS",
-      "en": "ISLAMIC POSTERS",
-      "tagAr": "فن إسلامي، القرآن الكريم، آيات قرآنية، خط عربي، ديكور إسلامي، لوحات إسلامية",
-      "tagEn": "Islamic Art, Quran, Islamic Calligraphy, Arabic",
-      "img": "images/",
-      "descAr": "أضف لمسة من السكينة والروحانية لمساحتك مع تصميمات إسلامية أنيقة مستوحاة من آيات القرآن الكريم والخط العربي والعبارات الإيمانية.",
-      "descEn": "Bring a sense of peace and spirituality to your space with elegant Islamic artwork. Thoughtfully designed pieces inspired by Quranic verses, Islamic calligraphy, and meaningful reminders.",
-      "colorsAr": "",
-      "colorsEn": "",
-      "available": true,
-      "w": 700,
-      "h": 933,
-      "oldPrice": {
-        "20x30": 200,
-        "30x40": 300
-      },
-      "price": {
-        "20x30": 130,
-        "30x40": 200
-      }
-    },
-    {
       "id": "islamic-3",
       "cat": "islamic",
       "ar": "ISLAMIC POSTERS",
