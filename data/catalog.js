@@ -908,6 +908,7 @@ window.VYBE_CATALOG = {
       "available": true,
       "w": 1920,
       "h": 1080,
+      "featured": true,
       "oldPrice": {
         "15x20": 100,
         "20x30": 200,
