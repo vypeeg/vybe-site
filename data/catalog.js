@@ -49,10 +49,10 @@ window.VYBE_CATALOG = {
     "sheetWebhook": "https://script.google.com/macros/s/AKfycbze9G2oSra38YOBeXaU3y6Jljbe1MIq8jmm_IUwfbLqjbMo7Z_pk6vOdWMaGx6N_LlS/exec",
     "sizeEnabled": {
       "10x20": false,
-      "15x20": true,
+      "15x20": false,
       "20x30": true,
       "30x40": true,
-      "40x50": true
+      "40x50": false
     }
   },
   "categories": [
@@ -133,6 +133,286 @@ window.VYBE_CATALOG = {
     }
   ],
   "posters": [
+    {
+      "id": "poster3",
+      "cat": "poster3",
+      "ar": "3 POSTERS",
+      "en": "3 POSTERS",
+      "tagAr": "3 بوسترات، مجموعة بوسترات، ديكور حائط، لوحات جدارية، ديكور غرف، فنون",
+      "tagEn": "3 Posters, Poster Set, Wall Art, Room Decor, Wall",
+      "img": "images/vybe-3-frames.png",
+      "descAr": "جدّد شكل حائطك مع مجموعة مميزة من 3 بوسترات بتصميمات متناسقة. مزيج من الفن والإبداع يضيف لمسة جمالية وشخصية مميزة لمساحتك.",
+      "descEn": "Upgrade your walls with a curated set of three posters. A stylish combination of art and creativity designed to bring personality, balance, and a premium touch to your space.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1920,
+      "h": 1080,
+      "oldPrice": {
+        "15x20": 100,
+        "20x30": 200,
+        "30x40": 300,
+        "40x50": 400
+      },
+      "price": {
+        "15x20": 80,
+        "20x30": 130,
+        "30x40": 200,
+        "40x50": 300
+      }
+    },
+    {
+      "id": "poster3-2",
+      "cat": "poster3",
+      "ar": "3POSTERS MESSI",
+      "en": "3POSTERS MESSI",
+      "tagAr": "3 بوسترات، مجموعة بوسترات، ديكور حائط، لوحات جدارية، ديكور غرف، فنون",
+      "tagEn": "3 Posters, Poster Set, Wall Art, Room Decor, Wall",
+      "img": "images/vybe-3-frames-6-.png",
+      "descAr": "جدّد شكل حائطك مع مجموعة مميزة من 3 بوسترات بتصميمات متناسقة. مزيج من الفن والإبداع يضيف لمسة جمالية وشخصية مميزة لمساحتك.",
+      "descEn": "Upgrade your walls with a curated set of three posters. A stylish combination of art and creativity designed to bring personality, balance, and a premium touch to your space.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1920,
+      "h": 1080,
+      "oldPrice": {
+        "15x20": 100,
+        "20x30": 200,
+        "30x40": 300,
+        "40x50": 400
+      },
+      "price": {
+        "15x20": 80,
+        "20x30": 130,
+        "30x40": 200,
+        "40x50": 300
+      }
+    },
+    {
+      "id": "poster3-3",
+      "cat": "poster3",
+      "ar": "3POSTERS JOKER",
+      "en": "3POSTERS JOKER",
+      "tagAr": "3 بوسترات، مجموعة بوسترات، ديكور حائط، لوحات جدارية، ديكور غرف، فنون",
+      "tagEn": " 3 Posters, Poster Set, Wall Art, Room Decor, Wall",
+      "img": "images/vybe-3-frames-5-.png",
+      "descAr": "جدّد شكل حائطك مع مجموعة مميزة من 3 بوسترات بتصميمات متناسقة. مزيج من الفن والإبداع يضيف لمسة جمالية وشخصية مميزة لمساحتك.",
+      "descEn": "Upgrade your walls with a curated set of three posters. A stylish combination of art and creativity designed to bring personality, balance, and a premium touch to your space.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1920,
+      "h": 1080,
+      "oldPrice": {
+        "15x20": 100,
+        "20x30": 200,
+        "30x40": 300,
+        "40x50": 400
+      },
+      "price": {
+        "15x20": 80,
+        "20x30": 130,
+        "30x40": 200,
+        "40x50": 300
+      }
+    },
+    {
+      "id": "poster3-4",
+      "cat": "poster3",
+      "ar": "3 POSTERS PORSECHE",
+      "en": "3 POSTERS PORSECHE",
+      "tagAr": "3 بوسترات، مجموعة بوسترات، ديكور حائط، لوحات جدارية، ديكور غرف، فنون",
+      "tagEn": " 3 Posters, Poster Set, Wall Art, Room Decor, Wall",
+      "img": "images/vybe-3-frames-4-.png",
+      "descAr": "جدّد شكل حائطك مع مجموعة مميزة من 3 بوسترات بتصميمات متناسقة. مزيج من الفن والإبداع يضيف لمسة جمالية وشخصية مميزة لمساحتك.",
+      "descEn": "Upgrade your walls with a curated set of three posters. A stylish combination of art and creativity designed to bring personality, balance, and a premium touch to your space.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1920,
+      "h": 1080,
+      "oldPrice": {
+        "15x20": 100,
+        "20x30": 200,
+        "30x40": 300,
+        "40x50": 400
+      },
+      "price": {
+        "15x20": 80,
+        "20x30": 130,
+        "30x40": 200,
+        "40x50": 300
+      }
+    },
+    {
+      "id": "poster3-5",
+      "cat": "poster3",
+      "ar": "3POSTERS FOUCES",
+      "en": "3POSTERS FOUCES",
+      "tagAr": "3 بوسترات، مجموعة بوسترات، ديكور حائط، لوحات جدارية، ديكور غرف، فنون",
+      "tagEn": "3 Posters, Poster Set, Wall Art, Room Decor, Wall",
+      "img": "images/vybe-3-frames-3-.png",
+      "descAr": "جدّد شكل حائطك مع مجموعة مميزة من 3 بوسترات بتصميمات متناسقة. مزيج من الفن والإبداع يضيف لمسة جمالية وشخصية مميزة لمساحتك.",
+      "descEn": "Upgrade your walls with a curated set of three posters. A stylish combination of art and creativity designed to bring personality, balance, and a premium touch to your space.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1920,
+      "h": 1080,
+      "oldPrice": {
+        "15x20": 100,
+        "20x30": 200,
+        "30x40": 300,
+        "40x50": 400
+      },
+      "price": {
+        "15x20": 80,
+        "20x30": 130,
+        "30x40": 200,
+        "40x50": 300
+      }
+    },
+    {
+      "id": "poster3-6",
+      "cat": "poster3",
+      "ar": "3POSTERS FOUCES",
+      "en": "3POSTERS FOUCES",
+      "tagAr": "3 بوسترات، مجموعة بوسترات، ديكور حائط، لوحات جدارية، ديكور غرف، فنون",
+      "tagEn": "3 Posters, Poster Set, Wall Art, Room Decor, Wall",
+      "img": "images/vybe-3-frames-2-.png",
+      "descAr": "جدّد شكل حائطك مع مجموعة مميزة من 3 بوسترات بتصميمات متناسقة. مزيج من الفن والإبداع يضيف لمسة جمالية وشخصية مميزة لمساحتك.",
+      "descEn": "Upgrade your walls with a curated set of three posters. A stylish combination of art and creativity designed to bring personality, balance, and a premium touch to your space.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1920,
+      "h": 1080,
+      "oldPrice": {
+        "15x20": 100,
+        "20x30": 200,
+        "30x40": 300,
+        "40x50": 400
+      },
+      "price": {
+        "15x20": 80,
+        "20x30": 130,
+        "30x40": 200,
+        "40x50": 300
+      }
+    },
+    {
+      "id": "poster3-7",
+      "cat": "poster3",
+      "ar": "3بوسترات ماكلرن ",
+      "en": "3POSTERS MACLARN",
+      "tagAr": "3 بوسترات، مجموعة بوسترات، ديكور حائط، لوحات جدارية، ديكور غرف، فنون",
+      "tagEn": " 3 Posters, Poster Set, Wall Art, Room Decor, Wall",
+      "img": "images/4.png",
+      "descAr": "جدّد شكل حائطك مع مجموعة مميزة من 3 بوسترات بتصميمات متناسقة. مزيج من الفن والإبداع يضيف لمسة جمالية وشخصية مميزة لمساحتك.",
+      "descEn": "Upgrade your walls with a curated set of three posters. A stylish combination of art and creativity designed to bring personality, balance, and a premium touch to your space.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1920,
+      "h": 1080,
+      "oldPrice": {
+        "15x20": 100,
+        "20x30": 200,
+        "30x40": 300,
+        "40x50": 400
+      },
+      "price": {
+        "15x20": 80,
+        "20x30": 130,
+        "30x40": 200,
+        "40x50": 300
+      }
+    },
+    {
+      "id": "poster3-8",
+      "cat": "poster3",
+      "ar": "3بوسترات ام 4",
+      "en": "3POSTERS M4",
+      "tagAr": "3 بوسترات، مجموعة بوسترات، ديكور حائط، لوحات جدارية، ديكور غرف، فنون",
+      "tagEn": "3 Posters, Poster Set, Wall Art, Room Decor, Wall",
+      "img": "images/3.png",
+      "descAr": "جدّد شكل حائطك مع مجموعة مميزة من 3 بوسترات بتصميمات متناسقة. مزيج من الفن والإبداع يضيف لمسة جمالية وشخصية مميزة لمساحتك.",
+      "descEn": "Upgrade your walls with a curated set of three posters. A stylish combination of art and creativity designed to bring personality, balance, and a premium touch to your space.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1920,
+      "h": 1080,
+      "oldPrice": {
+        "15x20": 100,
+        "20x30": 200,
+        "30x40": 300,
+        "40x50": 400
+      },
+      "price": {
+        "15x20": 80,
+        "20x30": 130,
+        "30x40": 200,
+        "40x50": 300
+      }
+    },
+    {
+      "id": "poster3-9",
+      "cat": "poster3",
+      "ar": "3 بوسترات رونالدو",
+      "en": "3POSTERS RONLADO",
+      "tagAr": "3 بوسترات، مجموعة بوسترات، ديكور حائط، لوحات جدارية، ديكور غرف، فنون",
+      "tagEn": "3 Posters, Poster Set, Wall Art, Room Decor, Wall",
+      "img": "images/2.png",
+      "descAr": "جدّد شكل حائطك مع مجموعة مميزة من 3 بوسترات بتصميمات متناسقة. مزيج من الفن والإبداع يضيف لمسة جمالية وشخصية مميزة لمساحتك.",
+      "descEn": "Upgrade your walls with a curated set of three posters. A stylish combination of art and creativity designed to bring personality, balance, and a premium touch to your space.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1920,
+      "h": 1080,
+      "oldPrice": {
+        "15x20": 100,
+        "20x30": 200,
+        "30x40": 300,
+        "40x50": 400
+      },
+      "price": {
+        "15x20": 80,
+        "20x30": 130,
+        "30x40": 200,
+        "40x50": 300
+      }
+    },
+    {
+      "id": "poster3-10",
+      "cat": "poster3",
+      "ar": "3بوسترات بات مان",
+      "en": "3 POSTERS BATMAN",
+      "tagAr": "3 بوسترات، مجموعة بوسترات، ديكور حائط، لوحات جدارية، ديكور غرف، فنون",
+      "tagEn": "3 Posters, Poster Set, Wall Art, Room Decor, Wall",
+      "img": "images/1.png",
+      "descAr": "جدّد شكل حائطك مع مجموعة مميزة من 3 بوسترات بتصميمات متناسقة. مزيج من الفن والإبداع يضيف لمسة جمالية وشخصية مميزة لمساحتك.",
+      "descEn": "Upgrade your walls with a curated set of three posters. A stylish combination of art and creativity designed to bring personality, balance, and a premium touch to your space.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1920,
+      "h": 1080,
+      "oldPrice": {
+        "15x20": 100,
+        "20x30": 200,
+        "30x40": 300,
+        "40x50": 400
+      },
+      "price": {
+        "15x20": 80,
+        "20x30": 130,
+        "30x40": 200,
+        "40x50": 300
+      }
+    },
     {
       "id": "cars",
       "cat": "cars",
