@@ -134,6 +134,102 @@ window.VYBE_CATALOG = {
   ],
   "posters": [
     {
+      "id": "neon",
+      "cat": "neon",
+      "ar": "car neon",
+      "en": "car neon",
+      "tagAr": "ديكور نيون",
+      "tagEn": "LED Decor",
+      "img": "images/n4.png",
+      "descAr": "أضف لمسة مختلفة لمساحتك مع تصميمات النيون المميزة. ألوان جذابة وتفاصيل عصرية تمنح حائطك مظهرًا لافتًا وشخصية خاصة.",
+      "descEn": "Make your space stand out with unique neon-inspired artwork. Bold visual details and modern aesthetics create an eye-catching statement for any room.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "neon-2",
+      "cat": "neon",
+      "ar": "car neon",
+      "en": "car neon",
+      "tagAr": "ديكور نيون",
+      "tagEn": "LED Decor",
+      "img": "images/n3.png",
+      "descAr": "أضف لمسة مختلفة لمساحتك مع تصميمات النيون المميزة. ألوان جذابة وتفاصيل عصرية تمنح حائطك مظهرًا لافتًا وشخصية خاصة.",
+      "descEn": "Make your space stand out with unique neon-inspired artwork. Bold visual details and modern aesthetics create an eye-catching statement for any room.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "neon-3",
+      "cat": "neon",
+      "ar": "car neon",
+      "en": "car neon",
+      "tagAr": "ديكور نيون",
+      "tagEn": "LED Decor",
+      "img": "images/n2.png",
+      "descAr": "أضف لمسة مختلفة لمساحتك مع تصميمات النيون المميزة. ألوان جذابة وتفاصيل عصرية تمنح حائطك مظهرًا لافتًا وشخصية خاصة.",
+      "descEn": "Make your space stand out with unique neon-inspired artwork. Bold visual details and modern aesthetics create an eye-catching statement for any room.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "neon-4",
+      "cat": "neon",
+      "ar": "car neon",
+      "en": "car neon",
+      "tagAr": "ديكور نيون",
+      "tagEn": "LED Decor",
+      "img": "images/n1.png",
+      "descAr": "أضف لمسة مختلفة لمساحتك مع تصميمات النيون المميزة. ألوان جذابة وتفاصيل عصرية تمنح حائطك مظهرًا لافتًا وشخصية خاصة.",
+      "descEn": "Make your space stand out with unique neon-inspired artwork. Bold visual details and modern aesthetics create an eye-catching statement for any room.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
       "id": "islamic",
       "cat": "islamic",
       "ar": "ISLAMIC POSTERS",
