@@ -134,6 +134,702 @@ window.VYBE_CATALOG = {
   ],
   "posters": [
     {
+      "id": "decor",
+      "cat": "decor",
+      "ar": "Decor",
+      "en": "Decor",
+      "tagAr": "ديكور منزلي",
+      "tagEn": "Home Decor",
+      "img": "images/d1.png",
+      "descAr": "اكتشف قطع ديكور مميزة تضيف لمسة من الأناقة والتفرد لمساحتك. تصميمات عصرية وتفاصيل إبداعية تساعدك على تحويل غرفتك لمكان يعبر عن ذوقك.",
+      "descEn": "Discover stylish decorative pieces designed to elevate your space. Explore modern designs and creative details that bring character, warmth, and elegance to your room.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "decor-2",
+      "cat": "decor",
+      "ar": "Decor",
+      "en": "Decor",
+      "tagAr": "ديكور منزلي",
+      "tagEn": "Home Decor",
+      "img": "images/d2.png",
+      "descAr": "اكتشف قطع ديكور مميزة تضيف لمسة من الأناقة والتفرد لمساحتك. تصميمات عصرية وتفاصيل إبداعية تساعدك على تحويل غرفتك لمكان يعبر عن ذوقك.",
+      "descEn": "Discover stylish decorative pieces designed to elevate your space. Explore modern designs and creative details that bring character, warmth, and elegance to your room.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "decor-3",
+      "cat": "decor",
+      "ar": "Decor",
+      "en": "Decor",
+      "tagAr": "ديكور منزلي",
+      "tagEn": "Home Decor",
+      "img": "images/d3.png",
+      "descAr": "اكتشف قطع ديكور مميزة تضيف لمسة من الأناقة والتفرد لمساحتك. تصميمات عصرية وتفاصيل إبداعية تساعدك على تحويل غرفتك لمكان يعبر عن ذوقك.",
+      "descEn": "Discover stylish decorative pieces designed to elevate your space. Explore modern designs and creative details that bring character, warmth, and elegance to your room.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "decor-4",
+      "cat": "decor",
+      "ar": "decor",
+      "en": "decor",
+      "tagAr": "ديكور منزلي",
+      "tagEn": "Home Decor",
+      "img": "images/d4.png",
+      "descAr": "اكتشف قطع ديكور مميزة تضيف لمسة من الأناقة والتفرد لمساحتك. تصميمات عصرية وتفاصيل إبداعية تساعدك على تحويل غرفتك لمكان يعبر عن ذوقك.",
+      "descEn": "Discover stylish decorative pieces designed to elevate your space. Explore modern designs and creative details that bring character, warmth, and elegance to your room.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "decor-5",
+      "cat": "decor",
+      "ar": "decor",
+      "en": "decor",
+      "tagAr": "ديكور منزلي",
+      "tagEn": "Home Decor",
+      "img": "images/d5.png",
+      "descAr": "اكتشف قطع ديكور مميزة تضيف لمسة من الأناقة والتفرد لمساحتك. تصميمات عصرية وتفاصيل إبداعية تساعدك على تحويل غرفتك لمكان يعبر عن ذوقك.",
+      "descEn": "Discover stylish decorative pieces designed to elevate your space. Explore modern designs and creative details that bring character, warmth, and elegance to your room.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "decor-6",
+      "cat": "decor",
+      "ar": "decor",
+      "en": "decor",
+      "tagAr": "ديكور منزلي",
+      "tagEn": "Home Decor",
+      "img": "images/d6.png",
+      "descAr": "اكتشف قطع ديكور مميزة تضيف لمسة من الأناقة والتفرد لمساحتك. تصميمات عصرية وتفاصيل إبداعية تساعدك على تحويل غرفتك لمكان يعبر عن ذوقك.",
+      "descEn": "Discover stylish decorative pieces designed to elevate your space. Explore modern designs and creative details that bring character, warmth, and elegance to your room.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "decor-7",
+      "cat": "decor",
+      "ar": "decor",
+      "en": "decor",
+      "tagAr": "ديكور منزلي",
+      "tagEn": "Home Decor",
+      "img": "images/d7.png",
+      "descAr": "اكتشف قطع ديكور مميزة تضيف لمسة من الأناقة والتفرد لمساحتك. تصميمات عصرية وتفاصيل إبداعية تساعدك على تحويل غرفتك لمكان يعبر عن ذوقك.",
+      "descEn": "Discover stylish decorative pieces designed to elevate your space. Explore modern designs and creative details that bring character, warmth, and elegance to your room.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "decor-8",
+      "cat": "decor",
+      "ar": "decor",
+      "en": "decor",
+      "tagAr": "ديكور منزلي",
+      "tagEn": "Home Decor",
+      "img": "images/d8.png",
+      "descAr": "اكتشف قطع ديكور مميزة تضيف لمسة من الأناقة والتفرد لمساحتك. تصميمات عصرية وتفاصيل إبداعية تساعدك على تحويل غرفتك لمكان يعبر عن ذوقك.",
+      "descEn": "Discover stylish decorative pieces designed to elevate your space. Explore modern designs and creative details that bring character, warmth, and elegance to your room.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "decor-9",
+      "cat": "decor",
+      "ar": "decor",
+      "en": "decor",
+      "tagAr": "ديكور منزلي",
+      "tagEn": "Home Decor",
+      "img": "images/d9.png",
+      "descAr": "اكتشف قطع ديكور مميزة تضيف لمسة من الأناقة والتفرد لمساحتك. تصميمات عصرية وتفاصيل إبداعية تساعدك على تحويل غرفتك لمكان يعبر عن ذوقك.",
+      "descEn": "Discover stylish decorative pieces designed to elevate your space. Explore modern designs and creative details that bring character, warmth, and elegance to your room.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "decor-10",
+      "cat": "decor",
+      "ar": "decor",
+      "en": "decor",
+      "tagAr": "ديكور منزلي",
+      "tagEn": "Home Decor",
+      "img": "images/d10.png",
+      "descAr": "اكتشف قطع ديكور مميزة تضيف لمسة من الأناقة والتفرد لمساحتك. تصميمات عصرية وتفاصيل إبداعية تساعدك على تحويل غرفتك لمكان يعبر عن ذوقك.",
+      "descEn": "Discover stylish decorative pieces designed to elevate your space. Explore modern designs and creative details that bring character, warmth, and elegance to your room.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "decor-11",
+      "cat": "decor",
+      "ar": "decor",
+      "en": "decor",
+      "tagAr": "ديكور منزلي",
+      "tagEn": "Home Decor",
+      "img": "images/d11.png",
+      "descAr": "اكتشف قطع ديكور مميزة تضيف لمسة من الأناقة والتفرد لمساحتك. تصميمات عصرية وتفاصيل إبداعية تساعدك على تحويل غرفتك لمكان يعبر عن ذوقك.",
+      "descEn": "Discover stylish decorative pieces designed to elevate your space. Explore modern designs and creative details that bring character, warmth, and elegance to your room.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "decor-12",
+      "cat": "decor",
+      "ar": "decor",
+      "en": "decor",
+      "tagAr": "ديكور منزلي",
+      "tagEn": "Home Decor",
+      "img": "images/d12.png",
+      "descAr": "اكتشف قطع ديكور مميزة تضيف لمسة من الأناقة والتفرد لمساحتك. تصميمات عصرية وتفاصيل إبداعية تساعدك على تحويل غرفتك لمكان يعبر عن ذوقك.",
+      "descEn": "Discover stylish decorative pieces designed to elevate your space. Explore modern designs and creative details that bring character, warmth, and elegance to your room.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "decor-13",
+      "cat": "decor",
+      "ar": "decor",
+      "en": "decor",
+      "tagAr": "ديكور منزلي",
+      "tagEn": "Home Decor",
+      "img": "images/d13.png",
+      "descAr": "اكتشف قطع ديكور مميزة تضيف لمسة من الأناقة والتفرد لمساحتك. تصميمات عصرية وتفاصيل إبداعية تساعدك على تحويل غرفتك لمكان يعبر عن ذوقك.",
+      "descEn": "Discover stylish decorative pieces designed to elevate your space. Explore modern designs and creative details that bring character, warmth, and elegance to your room.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "decor-14",
+      "cat": "decor",
+      "ar": "decor",
+      "en": "decor",
+      "tagAr": "ديكور منزلي",
+      "tagEn": "Home Decor",
+      "img": "images/d14.png",
+      "descAr": "اكتشف قطع ديكور مميزة تضيف لمسة من الأناقة والتفرد لمساحتك. تصميمات عصرية وتفاصيل إبداعية تساعدك على تحويل غرفتك لمكان يعبر عن ذوقك.",
+      "descEn": "Discover stylish decorative pieces designed to elevate your space. Explore modern designs and creative details that bring character, warmth, and elegance to your room.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "decor-15",
+      "cat": "decor",
+      "ar": "decor",
+      "en": "decor",
+      "tagAr": "ديكور منزلي",
+      "tagEn": "Home Decor",
+      "img": "images/d15.png",
+      "descAr": "اكتشف قطع ديكور مميزة تضيف لمسة من الأناقة والتفرد لمساحتك. تصميمات عصرية وتفاصيل إبداعية تساعدك على تحويل غرفتك لمكان يعبر عن ذوقك.",
+      "descEn": "Discover stylish decorative pieces designed to elevate your space. Explore modern designs and creative details that bring character, warmth, and elegance to your room.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "decor-16",
+      "cat": "decor",
+      "ar": "decor",
+      "en": "decor",
+      "tagAr": "ديكور منزلي",
+      "tagEn": "Home Decor",
+      "img": "images/d16.png",
+      "descAr": "اكتشف قطع ديكور مميزة تضيف لمسة من الأناقة والتفرد لمساحتك. تصميمات عصرية وتفاصيل إبداعية تساعدك على تحويل غرفتك لمكان يعبر عن ذوقك.",
+      "descEn": "Discover stylish decorative pieces designed to elevate your space. Explore modern designs and creative details that bring character, warmth, and elegance to your room.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "decor-17",
+      "cat": "decor",
+      "ar": "decor",
+      "en": "decor",
+      "tagAr": "ديكور منزلي",
+      "tagEn": "Home Decor",
+      "img": "images/d17.png",
+      "descAr": "اكتشف قطع ديكور مميزة تضيف لمسة من الأناقة والتفرد لمساحتك. تصميمات عصرية وتفاصيل إبداعية تساعدك على تحويل غرفتك لمكان يعبر عن ذوقك.",
+      "descEn": "Discover stylish decorative pieces designed to elevate your space. Explore modern designs and creative details that bring character, warmth, and elegance to your room.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "poster-mwz8u9n3-1pbgn",
+      "cat": "poster3",
+      "ar": "decor",
+      "en": "decor",
+      "tagAr": "ديكور منزلي",
+      "tagEn": "Home Decor",
+      "img": "images/d18.png",
+      "descAr": "اكتشف قطع ديكور مميزة تضيف لمسة من الأناقة والتفرد لمساحتك. تصميمات عصرية وتفاصيل إبداعية تساعدك على تحويل غرفتك لمكان يعبر عن ذوقك.",
+      "descEn": "Discover stylish decorative pieces designed to elevate your space. Explore modern designs and creative details that bring character, warmth, and elegance to your room.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "decor-18",
+      "cat": "decor",
+      "ar": "decor",
+      "en": "decor",
+      "tagAr": "ديكور منزلي",
+      "tagEn": "Home Decor",
+      "img": "images/d19.png",
+      "descAr": "اكتشف قطع ديكور مميزة تضيف لمسة من الأناقة والتفرد لمساحتك. تصميمات عصرية وتفاصيل إبداعية تساعدك على تحويل غرفتك لمكان يعبر عن ذوقك.",
+      "descEn": "Discover stylish decorative pieces designed to elevate your space. Explore modern designs and creative details that bring character, warmth, and elegance to your room.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "decor-19",
+      "cat": "decor",
+      "ar": "decor",
+      "en": "decor",
+      "tagAr": "ديكور منزلي",
+      "tagEn": "Home Decor",
+      "img": "images/d20.png",
+      "descAr": "اكتشف قطع ديكور مميزة تضيف لمسة من الأناقة والتفرد لمساحتك. تصميمات عصرية وتفاصيل إبداعية تساعدك على تحويل غرفتك لمكان يعبر عن ذوقك.",
+      "descEn": "Discover stylish decorative pieces designed to elevate your space. Explore modern designs and creative details that bring character, warmth, and elegance to your room.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "decor-20",
+      "cat": "decor",
+      "ar": "decor",
+      "en": "decor",
+      "tagAr": "ديكور منزلي",
+      "tagEn": "Home Decor",
+      "img": "images/d21.png",
+      "descAr": "اكتشف قطع ديكور مميزة تضيف لمسة من الأناقة والتفرد لمساحتك. تصميمات عصرية وتفاصيل إبداعية تساعدك على تحويل غرفتك لمكان يعبر عن ذوقك.",
+      "descEn": "Discover stylish decorative pieces designed to elevate your space. Explore modern designs and creative details that bring character, warmth, and elegance to your room.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "decor-21",
+      "cat": "decor",
+      "ar": "منتج جديد",
+      "en": "New poster",
+      "tagAr": "ديكور منزلي",
+      "tagEn": "Home Decor",
+      "img": "images/d22.png",
+      "descAr": "اكتشف قطع ديكور مميزة تضيف لمسة من الأناقة والتفرد لمساحتك. تصميمات عصرية وتفاصيل إبداعية تساعدك على تحويل غرفتك لمكان يعبر عن ذوقك.",
+      "descEn": "Discover stylish decorative pieces designed to elevate your space. Explore modern designs and creative details that bring character, warmth, and elegance to your room.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "decor-22",
+      "cat": "decor",
+      "ar": "decor",
+      "en": "decor",
+      "tagAr": "ديكور منزلي",
+      "tagEn": "Home Decor",
+      "img": "images/d23.png",
+      "descAr": "اكتشف قطع ديكور مميزة تضيف لمسة من الأناقة والتفرد لمساحتك. تصميمات عصرية وتفاصيل إبداعية تساعدك على تحويل غرفتك لمكان يعبر عن ذوقك.",
+      "descEn": "Discover stylish decorative pieces designed to elevate your space. Explore modern designs and creative details that bring character, warmth, and elegance to your room.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "decor-23",
+      "cat": "decor",
+      "ar": "decor",
+      "en": "decor",
+      "tagAr": "ديكور منزلي",
+      "tagEn": "Home Decor",
+      "img": "images/d24.png",
+      "descAr": "اكتشف قطع ديكور مميزة تضيف لمسة من الأناقة والتفرد لمساحتك. تصميمات عصرية وتفاصيل إبداعية تساعدك على تحويل غرفتك لمكان يعبر عن ذوقك.",
+      "descEn": "Discover stylish decorative pieces designed to elevate your space. Explore modern designs and creative details that bring character, warmth, and elegance to your room.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "decor-24",
+      "cat": "decor",
+      "ar": "decor",
+      "en": "decor",
+      "tagAr": "ديكور منزلي",
+      "tagEn": "Home Decor",
+      "img": "images/d25.png",
+      "descAr": "اكتشف قطع ديكور مميزة تضيف لمسة من الأناقة والتفرد لمساحتك. تصميمات عصرية وتفاصيل إبداعية تساعدك على تحويل غرفتك لمكان يعبر عن ذوقك.",
+      "descEn": "Discover stylish decorative pieces designed to elevate your space. Explore modern designs and creative details that bring character, warmth, and elegance to your room.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "decor-25",
+      "cat": "decor",
+      "ar": "decor",
+      "en": "decor",
+      "tagAr": "ديكور منزلي",
+      "tagEn": "Home Decor",
+      "img": "images/d26.png",
+      "descAr": "اكتشف قطع ديكور مميزة تضيف لمسة من الأناقة والتفرد لمساحتك. تصميمات عصرية وتفاصيل إبداعية تساعدك على تحويل غرفتك لمكان يعبر عن ذوقك.",
+      "descEn": "Discover stylish decorative pieces designed to elevate your space. Explore modern designs and creative details that bring character, warmth, and elegance to your room.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "decor-26",
+      "cat": "decor",
+      "ar": "decor",
+      "en": "decor",
+      "tagAr": "ديكور منزلي",
+      "tagEn": "Home Decor",
+      "img": "images/d27.png",
+      "descAr": "اكتشف قطع ديكور مميزة تضيف لمسة من الأناقة والتفرد لمساحتك. تصميمات عصرية وتفاصيل إبداعية تساعدك على تحويل غرفتك لمكان يعبر عن ذوقك.",
+      "descEn": "Discover stylish decorative pieces designed to elevate your space. Explore modern designs and creative details that bring character, warmth, and elegance to your room.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "decor-27",
+      "cat": "decor",
+      "ar": "decor",
+      "en": "decor",
+      "tagAr": "ديكور منزلي",
+      "tagEn": "Home Decor",
+      "img": "images/d28.png",
+      "descAr": "اكتشف قطع ديكور مميزة تضيف لمسة من الأناقة والتفرد لمساحتك. تصميمات عصرية وتفاصيل إبداعية تساعدك على تحويل غرفتك لمكان يعبر عن ذوقك.",
+      "descEn": "Discover stylish decorative pieces designed to elevate your space. Explore modern designs and creative details that bring character, warmth, and elegance to your room.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "decor-28",
+      "cat": "decor",
+      "ar": "decor",
+      "en": "decor",
+      "tagAr": "ديكور منزلي",
+      "tagEn": "Home Decor",
+      "img": "images/d29.png",
+      "descAr": "اكتشف قطع ديكور مميزة تضيف لمسة من الأناقة والتفرد لمساحتك. تصميمات عصرية وتفاصيل إبداعية تساعدك على تحويل غرفتك لمكان يعبر عن ذوقك.",
+      "descEn": "Discover stylish decorative pieces designed to elevate your space. Explore modern designs and creative details that bring character, warmth, and elegance to your room.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
       "id": "neon",
       "cat": "neon",
       "ar": "car neon",
