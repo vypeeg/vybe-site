@@ -134,6 +134,599 @@ window.VYBE_CATALOG = {
   ],
   "posters": [
     {
+      "id": "movies",
+      "cat": "movies",
+      "ar": "I ALWAYS WIN",
+      "en": "I ALWAYS WIN",
+      "tagAr": "بوسترات أفلام",
+      "tagEn": "Movie Poster",
+      "img": "images/m24.png",
+      "descAr": "حوّل حبك للأفلام والمسلسلات إلى جزء من ديكورك مع تصميمات مستوحاة من أشهر الأعمال السينمائية والشخصيات والمشاهد المميزة.",
+      "descEn": "Celebrate your favorite movies and shows with creative cinematic wall art. From unforgettable scenes to iconic characters, bring your entertainment passion into your space.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "movies-2",
+      "cat": "movies",
+      "ar": "اهون عليكي تهوني عليا ",
+      "en": "اهون عليكي تهوني عليا ",
+      "tagAr": "بوسترات أفلام",
+      "tagEn": "Movie Poster",
+      "img": "images/m23.png",
+      "descAr": "حوّل حبك للأفلام والمسلسلات إلى جزء من ديكورك مع تصميمات مستوحاة من أشهر الأعمال السينمائية والشخصيات والمشاهد المميزة.",
+      "descEn": "Celebrate your favorite movies and shows with creative cinematic wall art. From unforgettable scenes to iconic characters, bring your entertainment passion into your space.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "poster-mx0ibvqc-po3sy",
+      "cat": "poster3",
+      "ar": "منتج جديد",
+      "en": "New poster",
+      "tagAr": "",
+      "tagEn": "",
+      "img": "images/",
+      "descAr": "",
+      "descEn": "",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 700,
+      "h": 933
+    },
+    {
+      "id": "movies-3",
+      "cat": "movies",
+      "ar": "الجراة حلوة ",
+      "en": "الجراة حلوة ",
+      "tagAr": "بوسترات أفلام",
+      "tagEn": "Movie Poster",
+      "img": "images/m22.png",
+      "descAr": "حوّل حبك للأفلام والمسلسلات إلى جزء من ديكورك مع تصميمات مستوحاة من أشهر الأعمال السينمائية والشخصيات والمشاهد المميزة.",
+      "descEn": "Celebrate your favorite movies and shows with creative cinematic wall art. From unforgettable scenes to iconic characters, bring your entertainment passion into your space.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "movies-4",
+      "cat": "movies",
+      "ar": "ناصر الدسوقي",
+      "en": "ناصر الدسوقي",
+      "tagAr": "بوسترات أفلام",
+      "tagEn": "Movie Poster",
+      "img": "images/m21.png",
+      "descAr": "حوّل حبك للأفلام والمسلسلات إلى جزء من ديكورك مع تصميمات مستوحاة من أشهر الأعمال السينمائية والشخصيات والمشاهد المميزة.",
+      "descEn": "Celebrate your favorite movies and shows with creative cinematic wall art. From unforgettable scenes to iconic characters, bring your entertainment passion into your space.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "movies-5",
+      "cat": "movies",
+      "ar": "NO RISK NO STORY",
+      "en": "NO RISK NO STORY",
+      "tagAr": "بوسترات أفلام",
+      "tagEn": "Movie Poster",
+      "img": "images/m20.png",
+      "descAr": "حوّل حبك للأفلام والمسلسلات إلى جزء من ديكورك مع تصميمات مستوحاة من أشهر الأعمال السينمائية والشخصيات والمشاهد المميزة.",
+      "descEn": "Celebrate your favorite movies and shows with creative cinematic wall art. From unforgettable scenes to iconic characters, bring your entertainment passion into your space.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "featured": true,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "movies-6",
+      "cat": "movies",
+      "ar": "THE WORLD IS YOURS",
+      "en": "THE WORLD IS YOURS",
+      "tagAr": "بوسترات أفلام",
+      "tagEn": "Movie Poster",
+      "img": "images/m19.png",
+      "descAr": "حوّل حبك للأفلام والمسلسلات إلى جزء من ديكورك مع تصميمات مستوحاة من أشهر الأعمال السينمائية والشخصيات والمشاهد المميزة.",
+      "descEn": "Celebrate your favorite movies and shows with creative cinematic wall art. From unforgettable scenes to iconic characters, bring your entertainment passion into your space.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "movies-7",
+      "cat": "movies",
+      "ar": "غادر ",
+      "en": "غادر ",
+      "tagAr": "بوسترات أفلام",
+      "tagEn": "Movie Poster",
+      "img": "images/m18.png",
+      "descAr": "حوّل حبك للأفلام والمسلسلات إلى جزء من ديكورك مع تصميمات مستوحاة من أشهر الأعمال السينمائية والشخصيات والمشاهد المميزة.",
+      "descEn": "Celebrate your favorite movies and shows with creative cinematic wall art. From unforgettable scenes to iconic characters, bring your entertainment passion into your space.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "movies-8",
+      "cat": "movies",
+      "ar": "رفاعي",
+      "en": "رفاعي",
+      "tagAr": "بوسترات أفلام",
+      "tagEn": "Movie Poster",
+      "img": "images/m17.png",
+      "descAr": "حوّل حبك للأفلام والمسلسلات إلى جزء من ديكورك مع تصميمات مستوحاة من أشهر الأعمال السينمائية والشخصيات والمشاهد المميزة.",
+      "descEn": "Celebrate your favorite movies and shows with creative cinematic wall art. From unforgettable scenes to iconic characters, bring your entertainment passion into your space.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "movies-9",
+      "cat": "movies",
+      "ar": "THE GOD FATHER",
+      "en": "THE GOD FATHER",
+      "tagAr": "بوسترات أفلام",
+      "tagEn": "Movie Poster",
+      "img": "images/m16.png",
+      "descAr": "حوّل حبك للأفلام والمسلسلات إلى جزء من ديكورك مع تصميمات مستوحاة من أشهر الأعمال السينمائية والشخصيات والمشاهد المميزة.",
+      "descEn": "Celebrate your favorite movies and shows with creative cinematic wall art. From unforgettable scenes to iconic characters, bring your entertainment passion into your space.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "movies-10",
+      "cat": "movies",
+      "ar": "LET THE MAN ",
+      "en": "LET THE MAN ",
+      "tagAr": "بوسترات أفلام",
+      "tagEn": "Movie Poster",
+      "img": "images/m15.png",
+      "descAr": "حوّل حبك للأفلام والمسلسلات إلى جزء من ديكورك مع تصميمات مستوحاة من أشهر الأعمال السينمائية والشخصيات والمشاهد المميزة.",
+      "descEn": "Celebrate your favorite movies and shows with creative cinematic wall art. From unforgettable scenes to iconic characters, bring your entertainment passion into your space.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "movies-11",
+      "cat": "movies",
+      "ar": "IF NOT ME",
+      "en": "IF NOT ME",
+      "tagAr": "بوسترات أفلام",
+      "tagEn": "Movie Poster",
+      "img": "images/m14.png",
+      "descAr": "حوّل حبك للأفلام والمسلسلات إلى جزء من ديكورك مع تصميمات مستوحاة من أشهر الأعمال السينمائية والشخصيات والمشاهد المميزة.",
+      "descEn": "Celebrate your favorite movies and shows with creative cinematic wall art. From unforgettable scenes to iconic characters, bring your entertainment passion into your space.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "movies-12",
+      "cat": "movies",
+      "ar": "REALLY WANT",
+      "en": "REALLY WANT",
+      "tagAr": "بوسترات أفلام",
+      "tagEn": "Movie Poster",
+      "img": "images/m13.png",
+      "descAr": "حوّل حبك للأفلام والمسلسلات إلى جزء من ديكورك مع تصميمات مستوحاة من أشهر الأعمال السينمائية والشخصيات والمشاهد المميزة.",
+      "descEn": "Celebrate your favorite movies and shows with creative cinematic wall art. From unforgettable scenes to iconic characters, bring your entertainment passion into your space.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "movies-13",
+      "cat": "movies",
+      "ar": "NEED IS YOU",
+      "en": "NEED IS YOU",
+      "tagAr": "بوسترات أفلام",
+      "tagEn": "Movie Poster",
+      "img": "images/m12.png",
+      "descAr": "حوّل حبك للأفلام والمسلسلات إلى جزء من ديكورك مع تصميمات مستوحاة من أشهر الأعمال السينمائية والشخصيات والمشاهد المميزة.",
+      "descEn": "Celebrate your favorite movies and shows with creative cinematic wall art. From unforgettable scenes to iconic characters, bring your entertainment passion into your space.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "movies-14",
+      "cat": "movies",
+      "ar": "FU*K THEM",
+      "en": "FU*K THEM",
+      "tagAr": "بوسترات أفلام",
+      "tagEn": "Movie Poster",
+      "img": "images/m11.png",
+      "descAr": "حوّل حبك للأفلام والمسلسلات إلى جزء من ديكورك مع تصميمات مستوحاة من أشهر الأعمال السينمائية والشخصيات والمشاهد المميزة.",
+      "descEn": "Celebrate your favorite movies and shows with creative cinematic wall art. From unforgettable scenes to iconic characters, bring your entertainment passion into your space.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "movies-15",
+      "cat": "movies",
+      "ar": "OWN MY STORY",
+      "en": "OWN MY STORY",
+      "tagAr": "بوسترات أفلام",
+      "tagEn": "Movie Poster",
+      "img": "images/m10.png",
+      "descAr": "حوّل حبك للأفلام والمسلسلات إلى جزء من ديكورك مع تصميمات مستوحاة من أشهر الأعمال السينمائية والشخصيات والمشاهد المميزة.",
+      "descEn": "Celebrate your favorite movies and shows with creative cinematic wall art. From unforgettable scenes to iconic characters, bring your entertainment passion into your space.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "movies-16",
+      "cat": "movies",
+      "ar": "NOTHING IS OVER",
+      "en": "NOTHING IS OVER",
+      "tagAr": "بوسترات أفلام",
+      "tagEn": "Movie Poster",
+      "img": "images/m9.png",
+      "descAr": "حوّل حبك للأفلام والمسلسلات إلى جزء من ديكورك مع تصميمات مستوحاة من أشهر الأعمال السينمائية والشخصيات والمشاهد المميزة.",
+      "descEn": "Celebrate your favorite movies and shows with creative cinematic wall art. From unforgettable scenes to iconic characters, bring your entertainment passion into your space.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "movies-17",
+      "cat": "movies",
+      "ar": "STAY REAL",
+      "en": "STAY REAL",
+      "tagAr": "بوسترات أفلام",
+      "tagEn": "Movie Poster",
+      "img": "images/m8.png",
+      "descAr": "حوّل حبك للأفلام والمسلسلات إلى جزء من ديكورك مع تصميمات مستوحاة من أشهر الأعمال السينمائية والشخصيات والمشاهد المميزة.",
+      "descEn": "Celebrate your favorite movies and shows with creative cinematic wall art. From unforgettable scenes to iconic characters, bring your entertainment passion into your space.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "movies-18",
+      "cat": "poster3",
+      "ar": "OLD ME",
+      "en": "OLD ME",
+      "tagAr": "بوسترات أفلام",
+      "tagEn": "Movie Poster",
+      "img": "images/m7.png",
+      "descAr": "حوّل حبك للأفلام والمسلسلات إلى جزء من ديكورك مع تصميمات مستوحاة من أشهر الأعمال السينمائية والشخصيات والمشاهد المميزة.",
+      "descEn": "Celebrate your favorite movies and shows with creative cinematic wall art. From unforgettable scenes to iconic characters, bring your entertainment passion into your space.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "movies-19",
+      "cat": "movies",
+      "ar": "DO IT ALONE",
+      "en": "DO IT ALONE",
+      "tagAr": "بوسترات أفلام",
+      "tagEn": "Movie Poster",
+      "img": "images/m6.png",
+      "descAr": "حوّل حبك للأفلام والمسلسلات إلى جزء من ديكورك مع تصميمات مستوحاة من أشهر الأعمال السينمائية والشخصيات والمشاهد المميزة.",
+      "descEn": "Celebrate your favorite movies and shows with creative cinematic wall art. From unforgettable scenes to iconic characters, bring your entertainment passion into your space.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "movies-20",
+      "cat": "movies",
+      "ar": "BORN TO WIN",
+      "en": "BORN TO WIN",
+      "tagAr": "بوسترات أفلام",
+      "tagEn": "Movie Poster",
+      "img": "images/m5.png",
+      "descAr": "حوّل حبك للأفلام والمسلسلات إلى جزء من ديكورك مع تصميمات مستوحاة من أشهر الأعمال السينمائية والشخصيات والمشاهد المميزة.",
+      "descEn": "Celebrate your favorite movies and shows with creative cinematic wall art. From unforgettable scenes to iconic characters, bring your entertainment passion into your space.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "movies-21",
+      "cat": "movies",
+      "ar": "ANOTHER DAY",
+      "en": "ANOTHER DAY",
+      "tagAr": "بوسترات أفلام",
+      "tagEn": "Movie Poster",
+      "img": "images/m4.png",
+      "descAr": "حوّل حبك للأفلام والمسلسلات إلى جزء من ديكورك مع تصميمات مستوحاة من أشهر الأعمال السينمائية والشخصيات والمشاهد المميزة.",
+      "descEn": "Celebrate your favorite movies and shows with creative cinematic wall art. From unforgettable scenes to iconic characters, bring your entertainment passion into your space.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "movies-22",
+      "cat": "poster3",
+      "ar": "JOKER",
+      "en": "JOKER",
+      "tagAr": "بوسترات أفلام",
+      "tagEn": "Movie Poster",
+      "img": "images/m3.png",
+      "descAr": "حوّل حبك للأفلام والمسلسلات إلى جزء من ديكورك مع تصميمات مستوحاة من أشهر الأعمال السينمائية والشخصيات والمشاهد المميزة.",
+      "descEn": "Celebrate your favorite movies and shows with creative cinematic wall art. From unforgettable scenes to iconic characters, bring your entertainment passion into your space.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "movies-23",
+      "cat": "movies",
+      "ar": "I KHNOW I WIN",
+      "en": "I KHNOW I WIN",
+      "tagAr": "بوسترات أفلام",
+      "tagEn": "Movie Poster",
+      "img": "images/m2.png",
+      "descAr": "حوّل حبك للأفلام والمسلسلات إلى جزء من ديكورك مع تصميمات مستوحاة من أشهر الأعمال السينمائية والشخصيات والمشاهد المميزة.",
+      "descEn": "Celebrate your favorite movies and shows with creative cinematic wall art. From unforgettable scenes to iconic characters, bring your entertainment passion into your space.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "movies-24",
+      "cat": "movies",
+      "ar": "VISION",
+      "en": "VISION",
+      "tagAr": "بوسترات أفلام",
+      "tagEn": "Movie Poster",
+      "img": "images/m1.png",
+      "descAr": "حوّل حبك للأفلام والمسلسلات إلى جزء من ديكورك مع تصميمات مستوحاة من أشهر الأعمال السينمائية والشخصيات والمشاهد المميزة.",
+      "descEn": "Celebrate your favorite movies and shows with creative cinematic wall art. From unforgettable scenes to iconic characters, bring your entertainment passion into your space.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
       "id": "singer",
       "cat": "singer",
       "ar": "SHERINE",
