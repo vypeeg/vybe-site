@@ -130,9 +130,374 @@ window.VYBE_CATALOG = {
       "id": "zamalek",
       "ar": "الزمالك",
       "en": "zamalek"
+    },
+    {
+      "id": "gym",
+      "ar": "جيم",
+      "en": "GYM"
     }
   ],
   "posters": [
+    {
+      "id": "gym",
+      "cat": "gym",
+      "ar": "GYYM",
+      "en": "GYYM",
+      "tagAr": "ديكور جيم",
+      "tagEn": "Gym Decor",
+      "img": "images/y3.png",
+      "descAr": "أضف جرعة من الحماس والتحفيز لمساحتك مع تصميمات مستوحاة من عالم الجيم والفيتنس. تصميمات تعبر عن القوة والانضباط وكمال الأجسام وشغف التمرين، لتمنح مكانك طابعًا رياضيًا مميزًا.",
+      "descEn": "Bring motivation and energy to your space with gym and fitness-inspired wall art. Discover bold designs celebrating strength, discipline, bodybuilding, and the fitness lifestyle. Perfect for creating an inspiring workout environment",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "gym-2",
+      "cat": "gym",
+      "ar": "DESTROY YOURSELF",
+      "en": "DESTROY YOURSELF",
+      "tagAr": "ديكور جيم",
+      "tagEn": "Gym Decor",
+      "img": "images/y14.png",
+      "descAr": "أضف جرعة من الحماس والتحفيز لمساحتك مع تصميمات مستوحاة من عالم الجيم والفيتنس. تصميمات تعبر عن القوة والانضباط وكمال الأجسام وشغف التمرين، لتمنح مكانك طابعًا رياضيًا مميزًا.",
+      "descEn": "Bring motivation and energy to your space with gym and fitness-inspired wall art. Discover bold designs celebrating strength, discipline, bodybuilding, and the fitness lifestyle. Perfect for creating an inspiring workout environment",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "gym-3",
+      "cat": "gym",
+      "ar": "GYMM",
+      "en": "GYMM",
+      "tagAr": "ديكور جيم",
+      "tagEn": "Gym Decor",
+      "img": "images/y13.png",
+      "descAr": "أضف جرعة من الحماس والتحفيز لمساحتك مع تصميمات مستوحاة من عالم الجيم والفيتنس. تصميمات تعبر عن القوة والانضباط وكمال الأجسام وشغف التمرين، لتمنح مكانك طابعًا رياضيًا مميزًا.",
+      "descEn": "Bring motivation and energy to your space with gym and fitness-inspired wall art. Discover bold designs celebrating strength, discipline, bodybuilding, and the fitness lifestyle. Perfect for creating an inspiring workout environment",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "gym-4",
+      "cat": "gym",
+      "ar": "I LIFT",
+      "en": "I LIFT",
+      "tagAr": "ديكور جيم",
+      "tagEn": "Gym Decor",
+      "img": "images/y12.png",
+      "descAr": "أضف جرعة من الحماس والتحفيز لمساحتك مع تصميمات مستوحاة من عالم الجيم والفيتنس. تصميمات تعبر عن القوة والانضباط وكمال الأجسام وشغف التمرين، لتمنح مكانك طابعًا رياضيًا مميزًا.",
+      "descEn": "Bring motivation and energy to your space with gym and fitness-inspired wall art. Discover bold designs celebrating strength, discipline, bodybuilding, and the fitness lifestyle. Perfect for creating an inspiring workout environment",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "gym-5",
+      "cat": "gym",
+      "ar": "IT IS GYM TIME",
+      "en": "IT IS GYM TIME",
+      "tagAr": "ديكور جيم",
+      "tagEn": "Gym Decor",
+      "img": "images/y11.png",
+      "descAr": "أضف جرعة من الحماس والتحفيز لمساحتك مع تصميمات مستوحاة من عالم الجيم والفيتنس. تصميمات تعبر عن القوة والانضباط وكمال الأجسام وشغف التمرين، لتمنح مكانك طابعًا رياضيًا مميزًا.",
+      "descEn": "Bring motivation and energy to your space with gym and fitness-inspired wall art. Discover bold designs celebrating strength, discipline, bodybuilding, and the fitness lifestyle. Perfect for creating an inspiring workout environment",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "gym-6",
+      "cat": "gym",
+      "ar": "ENJOY THE PAIN",
+      "en": "ENJOY THE PAIN",
+      "tagAr": "ديكور جيم",
+      "tagEn": "Gym Decor",
+      "img": "images/y10.png",
+      "descAr": "أضف جرعة من الحماس والتحفيز لمساحتك مع تصميمات مستوحاة من عالم الجيم والفيتنس. تصميمات تعبر عن القوة والانضباط وكمال الأجسام وشغف التمرين، لتمنح مكانك طابعًا رياضيًا مميزًا.",
+      "descEn": "Bring motivation and energy to your space with gym and fitness-inspired wall art. Discover bold designs celebrating strength, discipline, bodybuilding, and the fitness lifestyle. Perfect for creating an inspiring workout environment",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "gym-7",
+      "cat": "gym",
+      "ar": "PUSH YOUR SELF",
+      "en": "PUSH YOUR SELF",
+      "tagAr": "ديكور جيم",
+      "tagEn": "Gym Decor",
+      "img": "images/y9.png",
+      "descAr": "أضف جرعة من الحماس والتحفيز لمساحتك مع تصميمات مستوحاة من عالم الجيم والفيتنس. تصميمات تعبر عن القوة والانضباط وكمال الأجسام وشغف التمرين، لتمنح مكانك طابعًا رياضيًا مميزًا.",
+      "descEn": "Bring motivation and energy to your space with gym and fitness-inspired wall art. Discover bold designs celebrating strength, discipline, bodybuilding, and the fitness lifestyle. Perfect for creating an inspiring workout environment",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "gym-8",
+      "cat": "gym",
+      "ar": "ONE MORE",
+      "en": "ONE MORE",
+      "tagAr": "ديكور جيم",
+      "tagEn": "Gym Decor",
+      "img": "images/y8.png",
+      "descAr": "أضف جرعة من الحماس والتحفيز لمساحتك مع تصميمات مستوحاة من عالم الجيم والفيتنس. تصميمات تعبر عن القوة والانضباط وكمال الأجسام وشغف التمرين، لتمنح مكانك طابعًا رياضيًا مميزًا.",
+      "descEn": "Bring motivation and energy to your space with gym and fitness-inspired wall art. Discover bold designs celebrating strength, discipline, bodybuilding, and the fitness lifestyle. Perfect for creating an inspiring workout environment",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "gym-9",
+      "cat": "gym",
+      "ar": "MOUSE GYM",
+      "en": "MOUSE GYM",
+      "tagAr": "ديكور جيم",
+      "tagEn": "Gym Decor",
+      "img": "images/y7.png",
+      "descAr": "أضف جرعة من الحماس والتحفيز لمساحتك مع تصميمات مستوحاة من عالم الجيم والفيتنس. تصميمات تعبر عن القوة والانضباط وكمال الأجسام وشغف التمرين، لتمنح مكانك طابعًا رياضيًا مميزًا.",
+      "descEn": "Bring motivation and energy to your space with gym and fitness-inspired wall art. Discover bold designs celebrating strength, discipline, bodybuilding, and the fitness lifestyle. Perfect for creating an inspiring workout environment",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 200
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "gym-10",
+      "cat": "gym",
+      "ar": "NO LOVE",
+      "en": "NO LOVE",
+      "tagAr": "ديكور جيم",
+      "tagEn": "ديكور جيم",
+      "img": "images/y6.png",
+      "descAr": "أضف جرعة من الحماس والتحفيز لمساحتك مع تصميمات مستوحاة من عالم الجيم والفيتنس. تصميمات تعبر عن القوة والانضباط وكمال الأجسام وشغف التمرين، لتمنح مكانك طابعًا رياضيًا مميزًا.",
+      "descEn": "Bring motivation and energy to your space with gym and fitness-inspired wall art. Discover bold designs celebrating strength, discipline, bodybuilding, and the fitness lifestyle. Perfect for creating an inspiring workout environment",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "gym-11",
+      "cat": "gym",
+      "ar": "LIMIT IS YOU",
+      "en": "LIMIT IS YOU",
+      "tagAr": "ديكور جيم",
+      "tagEn": "Gym Decor",
+      "img": "images/",
+      "descAr": "أضف جرعة من الحماس والتحفيز لمساحتك مع تصميمات مستوحاة من عالم الجيم والفيتنس. تصميمات تعبر عن القوة والانضباط وكمال الأجسام وشغف التمرين، لتمنح مكانك طابعًا رياضيًا مميزًا.",
+      "descEn": "Bring motivation and energy to your space with gym and fitness-inspired wall art. Discover bold designs celebrating strength, discipline, bodybuilding, and the fitness lifestyle. Perfect for creating an inspiring workout environment",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 700,
+      "h": 933,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "gym-12",
+      "cat": "gym",
+      "ar": "MONALIZA GYM",
+      "en": "MONALIZA GYM",
+      "tagAr": "ديكور جيم",
+      "tagEn": "Gym Decor",
+      "img": "images/y4.png",
+      "descAr": "أضف جرعة من الحماس والتحفيز لمساحتك مع تصميمات مستوحاة من عالم الجيم والفيتنس. تصميمات تعبر عن القوة والانضباط وكمال الأجسام وشغف التمرين، لتمنح مكانك طابعًا رياضيًا مميزًا.",
+      "descEn": "Bring motivation and energy to your space with gym and fitness-inspired wall art. Discover bold designs celebrating strength, discipline, bodybuilding, and the fitness lifestyle. Perfect for creating an inspiring workout environment",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 200
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "gym-13",
+      "cat": "gym",
+      "ar": "GYM",
+      "en": "GYM",
+      "tagAr": "ديكور جيم",
+      "tagEn": "Gym Decor",
+      "img": "images/y3.png",
+      "descAr": "أضف جرعة من الحماس والتحفيز لمساحتك مع تصميمات مستوحاة من عالم الجيم والفيتنس. تصميمات تعبر عن القوة والانضباط وكمال الأجسام وشغف التمرين، لتمنح مكانك طابعًا رياضيًا مميزًا.",
+      "descEn": "Bring motivation and energy to your space with gym and fitness-inspired wall art. Discover bold designs celebrating strength, discipline, bodybuilding, and the fitness lifestyle. Perfect for creating an inspiring workout environment",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "gym-14",
+      "cat": "gym",
+      "ar": "GYM LIFE",
+      "en": "GYM LIFE",
+      "tagAr": "ديكور جيم",
+      "tagEn": "Gym Decor",
+      "img": "images/y2.png",
+      "descAr": "أضف جرعة من الحماس والتحفيز لمساحتك مع تصميمات مستوحاة من عالم الجيم والفيتنس. تصميمات تعبر عن القوة والانضباط وكمال الأجسام وشغف التمرين، لتمنح مكانك طابعًا رياضيًا مميزًا.",
+      "descEn": "Bring motivation and energy to your space with gym and fitness-inspired wall art. Discover bold designs celebrating strength, discipline, bodybuilding, and the fitness lifestyle. Perfect for creating an inspiring workout environment",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "gym-15",
+      "cat": "gym",
+      "ar": "not your mood",
+      "en": "not your mood",
+      "tagAr": "ديكور جيم",
+      "tagEn": "Gym Decor",
+      "img": "images/y1.png",
+      "descAr": "أضف جرعة من الحماس والتحفيز لمساحتك مع تصميمات مستوحاة من عالم الجيم والفيتنس. تصميمات تعبر عن القوة والانضباط وكمال الأجسام وشغف التمرين، لتمنح مكانك طابعًا رياضيًا مميزًا.",
+      "descEn": "Bring motivation and energy to your space with gym and fitness-inspired wall art. Discover bold designs celebrating strength, discipline, bodybuilding, and the fitness lifestyle. Perfect for creating an inspiring workout environment",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
     {
       "id": "zamalek",
       "cat": "zamalek",
