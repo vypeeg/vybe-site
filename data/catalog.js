@@ -1048,7 +1048,7 @@ window.VYBE_CATALOG = {
     },
     {
       "id": "movies-18",
-      "cat": "poster3",
+      "cat": "movies",
       "ar": "OLD ME",
       "en": "OLD ME",
       "tagAr": "بوسترات أفلام",
@@ -1144,7 +1144,7 @@ window.VYBE_CATALOG = {
     },
     {
       "id": "movies-22",
-      "cat": "poster3",
+      "cat": "movies",
       "ar": "JOKER",
       "en": "JOKER",
       "tagAr": "بوسترات أفلام",
