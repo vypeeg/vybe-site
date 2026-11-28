@@ -905,7 +905,7 @@ window.VYBE_CATALOG = {
     },
     {
       "id": "football-33",
-      "cat": "poster3",
+      "cat": "football",
       "ar": "PAOLO MALDINI",
       "en": "PAOLO MALDINI",
       "tagAr": "بوسترات كرة",
