@@ -134,6 +134,510 @@ window.VYBE_CATALOG = {
   ],
   "posters": [
     {
+      "id": "gaming",
+      "cat": "gaming",
+      "ar": "GTA VI ",
+      "en": "GTA VI ",
+      "tagAr": "ديكور جيمينج",
+      "tagEn": "Gamer Room",
+      "img": "images/g18.png",
+      "descAr": "طوّر شكل مساحة الجيمينج بتصميمات مستوحاة من عالم الألعاب. اختيارات مميزة تضيف طابعك الخاص ولمسة احترافية لإعداداتك.",
+      "descEn": "Level up your gaming setup with artwork inspired by gaming culture. Perfect for gamers who want to add personality, creativity, and style to their gaming space.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "gaming-2",
+      "cat": "gaming",
+      "ar": "GTA SAN ANDREAS",
+      "en": "GTA SAN ANDREAS",
+      "tagAr": "ديكور جيمينج",
+      "tagEn": "Gamer Room",
+      "img": "images/g20.png",
+      "descAr": "طوّر شكل مساحة الجيمينج بتصميمات مستوحاة من عالم الألعاب. اختيارات مميزة تضيف طابعك الخاص ولمسة احترافية لإعداداتك.",
+      "descEn": "Level up your gaming setup with artwork inspired by gaming culture. Perfect for gamers who want to add personality, creativity, and style to their gaming space.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "gaming-3",
+      "cat": "gaming",
+      "ar": "GAME ON",
+      "en": "GAME ON",
+      "tagAr": "ديكور جيمينج",
+      "tagEn": "Gamer Room",
+      "img": "images/g21.png",
+      "descAr": "طوّر شكل مساحة الجيمينج بتصميمات مستوحاة من عالم الألعاب. اختيارات مميزة تضيف طابعك الخاص ولمسة احترافية لإعداداتك.",
+      "descEn": "Level up your gaming setup with artwork inspired by gaming culture. Perfect for gamers who want to add personality, creativity, and style to their gaming space.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "gaming-4",
+      "cat": "gaming",
+      "ar": "SPIDER MAN1",
+      "en": "SPIDER MAN1",
+      "tagAr": "ديكور جيمينج",
+      "tagEn": "Gamer Room",
+      "img": "images/g19.png",
+      "descAr": "طوّر شكل مساحة الجيمينج بتصميمات مستوحاة من عالم الألعاب. اختيارات مميزة تضيف طابعك الخاص ولمسة احترافية لإعداداتك.",
+      "descEn": "Level up your gaming setup with artwork inspired by gaming culture. Perfect for gamers who want to add personality, creativity, and style to their gaming space.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "gaming-5",
+      "cat": "gaming",
+      "ar": "CALL OF DUTY 7",
+      "en": "CALL OF DUTY 7",
+      "tagAr": "ديكور جيمينج",
+      "tagEn": "Gamer Room",
+      "img": "images/g17.png",
+      "descAr": "طوّر شكل مساحة الجيمينج بتصميمات مستوحاة من عالم الألعاب. اختيارات مميزة تضيف طابعك الخاص ولمسة احترافية لإعداداتك.",
+      "descEn": "Level up your gaming setup with artwork inspired by gaming culture. Perfect for gamers who want to add personality, creativity, and style to their gaming space.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "gaming-6",
+      "cat": "singer",
+      "ar": "KRATOS",
+      "en": "KRATOS",
+      "tagAr": "ديكور جيمينج",
+      "tagEn": "Gamer Room",
+      "img": "images/g16.png",
+      "descAr": "طوّر شكل مساحة الجيمينج بتصميمات مستوحاة من عالم الألعاب. اختيارات مميزة تضيف طابعك الخاص ولمسة احترافية لإعداداتك.",
+      "descEn": "Level up your gaming setup with artwork inspired by gaming culture. Perfect for gamers who want to add personality, creativity, and style to their gaming space.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "gaming-7",
+      "cat": "gaming",
+      "ar": "PES 19",
+      "en": "PES 19",
+      "tagAr": "ديكور جيمينج",
+      "tagEn": "Gamer Room",
+      "img": "images/g15.png",
+      "descAr": "طوّر شكل مساحة الجيمينج بتصميمات مستوحاة من عالم الألعاب. اختيارات مميزة تضيف طابعك الخاص ولمسة احترافية لإعداداتك.",
+      "descEn": "Level up your gaming setup with artwork inspired by gaming culture. Perfect for gamers who want to add personality, creativity, and style to their gaming space.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "gaming-8",
+      "cat": "gaming",
+      "ar": "FC 26",
+      "en": "FC 26",
+      "tagAr": "ديكور جيمينج",
+      "tagEn": "Gamer Room",
+      "img": "images/g14.png",
+      "descAr": "طوّر شكل مساحة الجيمينج بتصميمات مستوحاة من عالم الألعاب. اختيارات مميزة تضيف طابعك الخاص ولمسة احترافية لإعداداتك.",
+      "descEn": "Level up your gaming setup with artwork inspired by gaming culture. Perfect for gamers who want to add personality, creativity, and style to their gaming space.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "gaming-9",
+      "cat": "gaming",
+      "ar": "SPIDER MAN ",
+      "en": "SPIDER MAN ",
+      "tagAr": "ديكور جيمينج",
+      "tagEn": "Gamer Room",
+      "img": "images/g13.png",
+      "descAr": "طوّر شكل مساحة الجيمينج بتصميمات مستوحاة من عالم الألعاب. اختيارات مميزة تضيف طابعك الخاص ولمسة احترافية لإعداداتك.",
+      "descEn": "Level up your gaming setup with artwork inspired by gaming culture. Perfect for gamers who want to add personality, creativity, and style to their gaming space.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "gaming-10",
+      "cat": "gaming",
+      "ar": " WWE 2K25",
+      "en": " WWE 2K25",
+      "tagAr": "ديكور جيمينج",
+      "tagEn": "Gamer Room",
+      "img": "images/g12.png",
+      "descAr": "طوّر شكل مساحة الجيمينج بتصميمات مستوحاة من عالم الألعاب. اختيارات مميزة تضيف طابعك الخاص ولمسة احترافية لإعداداتك.",
+      "descEn": "Level up your gaming setup with artwork inspired by gaming culture. Perfect for gamers who want to add personality, creativity, and style to their gaming space.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "gaming-11",
+      "cat": "gaming",
+      "ar": "PES 2021",
+      "en": "PES 2021",
+      "tagAr": "ديكور جيمينج",
+      "tagEn": "Gamer Room",
+      "img": "images/g11.png",
+      "descAr": "طوّر شكل مساحة الجيمينج بتصميمات مستوحاة من عالم الألعاب. اختيارات مميزة تضيف طابعك الخاص ولمسة احترافية لإعداداتك.",
+      "descEn": "Level up your gaming setup with artwork inspired by gaming culture. Perfect for gamers who want to add personality, creativity, and style to their gaming space.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "gaming-12",
+      "cat": "gaming",
+      "ar": "NEED FOR SPEED",
+      "en": "NEED FOR SPEED",
+      "tagAr": "ديكور جيمينج",
+      "tagEn": "Gamer Room",
+      "img": "images/g10.png",
+      "descAr": "طوّر شكل مساحة الجيمينج بتصميمات مستوحاة من عالم الألعاب. اختيارات مميزة تضيف طابعك الخاص ولمسة احترافية لإعداداتك.",
+      "descEn": "Level up your gaming setup with artwork inspired by gaming culture. Perfect for gamers who want to add personality, creativity, and style to their gaming space.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "gaming-13",
+      "cat": "gaming",
+      "ar": "CALL OF DUTY",
+      "en": "CALL OF DUTY",
+      "tagAr": "ديكور جيمينج",
+      "tagEn": "Gamer Room",
+      "img": "images/g9.png",
+      "descAr": "طوّر شكل مساحة الجيمينج بتصميمات مستوحاة من عالم الألعاب. اختيارات مميزة تضيف طابعك الخاص ولمسة احترافية لإعداداتك.",
+      "descEn": "Level up your gaming setup with artwork inspired by gaming culture. Perfect for gamers who want to add personality, creativity, and style to their gaming space.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "gaming-14",
+      "cat": "gaming",
+      "ar": "CYBER PUNK",
+      "en": "CYBER PUNK",
+      "tagAr": "ديكور جيمينج",
+      "tagEn": "Gamer Room",
+      "img": "images/g8.png",
+      "descAr": "طوّر شكل مساحة الجيمينج بتصميمات مستوحاة من عالم الألعاب. اختيارات مميزة تضيف طابعك الخاص ولمسة احترافية لإعداداتك.",
+      "descEn": "Level up your gaming setup with artwork inspired by gaming culture. Perfect for gamers who want to add personality, creativity, and style to their gaming space.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "gaming-15",
+      "cat": "gaming",
+      "ar": "RED DEAD ",
+      "en": "RED DEAD ",
+      "tagAr": "ديكور جيمينج",
+      "tagEn": "Gamer Room",
+      "img": "images/g7.png",
+      "descAr": "طوّر شكل مساحة الجيمينج بتصميمات مستوحاة من عالم الألعاب. اختيارات مميزة تضيف طابعك الخاص ولمسة احترافية لإعداداتك.",
+      "descEn": "Level up your gaming setup with artwork inspired by gaming culture. Perfect for gamers who want to add personality, creativity, and style to their gaming space.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "gaming-16",
+      "cat": "gaming",
+      "ar": "CRASH",
+      "en": "CRASH",
+      "tagAr": "ديكور جيمينج",
+      "tagEn": "Gamer Room",
+      "img": "images/g6.png",
+      "descAr": "طوّر شكل مساحة الجيمينج بتصميمات مستوحاة من عالم الألعاب. اختيارات مميزة تضيف طابعك الخاص ولمسة احترافية لإعداداتك.",
+      "descEn": "Level up your gaming setup with artwork inspired by gaming culture. Perfect for gamers who want to add personality, creativity, and style to their gaming space.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "gaming-17",
+      "cat": "gaming",
+      "ar": "ROCKET LEAGUEE",
+      "en": "ROCKET LEAGUEE",
+      "tagAr": "ديكور جيمينج",
+      "tagEn": "Gamer Room",
+      "img": "images/g5.png",
+      "descAr": "طوّر شكل مساحة الجيمينج بتصميمات مستوحاة من عالم الألعاب. اختيارات مميزة تضيف طابعك الخاص ولمسة احترافية لإعداداتك.",
+      "descEn": "Level up your gaming setup with artwork inspired by gaming culture. Perfect for gamers who want to add personality, creativity, and style to their gaming space.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "gaming-18",
+      "cat": "gaming",
+      "ar": "FORTNITE",
+      "en": "FORTNITE",
+      "tagAr": "ديكور جيمينج",
+      "tagEn": "Gamer Room",
+      "img": "images/g4.png",
+      "descAr": "طوّر شكل مساحة الجيمينج بتصميمات مستوحاة من عالم الألعاب. اختيارات مميزة تضيف طابعك الخاص ولمسة احترافية لإعداداتك.",
+      "descEn": "Level up your gaming setup with artwork inspired by gaming culture. Perfect for gamers who want to add personality, creativity, and style to their gaming space.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "gaming-19",
+      "cat": "gaming",
+      "ar": "ROCKET LEAGUE",
+      "en": "ROCKET LEAGUE",
+      "tagAr": "ديكور جيمينج",
+      "tagEn": "Gamer Room",
+      "img": "images/g3.png",
+      "descAr": "طوّر شكل مساحة الجيمينج بتصميمات مستوحاة من عالم الألعاب. اختيارات مميزة تضيف طابعك الخاص ولمسة احترافية لإعداداتك.",
+      "descEn": "Level up your gaming setup with artwork inspired by gaming culture. Perfect for gamers who want to add personality, creativity, and style to their gaming space.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "gaming-20",
+      "cat": "gaming",
+      "ar": "GAME ZONE",
+      "en": "GAME ZONE",
+      "tagAr": "ديكور جيمينج",
+      "tagEn": "Gamer Room",
+      "img": "images/g2.png",
+      "descAr": "طوّر شكل مساحة الجيمينج بتصميمات مستوحاة من عالم الألعاب. اختيارات مميزة تضيف طابعك الخاص ولمسة احترافية لإعداداتك.",
+      "descEn": "Level up your gaming setup with artwork inspired by gaming culture. Perfect for gamers who want to add personality, creativity, and style to their gaming space.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "gaming-21",
+      "cat": "gaming",
+      "ar": "GHOST",
+      "en": "GHOST",
+      "tagAr": "ديكور جيمينج",
+      "tagEn": "Gamer Room",
+      "img": "images/g1.png",
+      "descAr": "طوّر شكل مساحة الجيمينج بتصميمات مستوحاة من عالم الألعاب. اختيارات مميزة تضيف طابعك الخاص ولمسة احترافية لإعداداتك.",
+      "descEn": "Level up your gaming setup with artwork inspired by gaming culture. Perfect for gamers who want to add personality, creativity, and style to their gaming space.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
       "id": "movies",
       "cat": "movies",
       "ar": "I ALWAYS WIN",
@@ -180,22 +684,6 @@ window.VYBE_CATALOG = {
         "20x30": 130,
         "30x40": 200
       }
-    },
-    {
-      "id": "poster-mx0ibvqc-po3sy",
-      "cat": "poster3",
-      "ar": "منتج جديد",
-      "en": "New poster",
-      "tagAr": "",
-      "tagEn": "",
-      "img": "images/",
-      "descAr": "",
-      "descEn": "",
-      "colorsAr": "",
-      "colorsEn": "",
-      "available": true,
-      "w": 700,
-      "h": 933
     },
     {
       "id": "movies-3",
