@@ -5739,7 +5739,7 @@ window.VYBE_CATALOG = {
       "en": "HONDA CBR 1000RR",
       "tagAr": "بوستر موتوسيكل",
       "tagEn": "Motorcycle",
-      "img": "images/33.png",
+      "img": "images/10.png",
       "descAr": "أضف روح السرعة والمغامرة لديكورك مع تصميمات مستوحاة من عالم الدراجات النارية. مجموعة مميزة لعشاق الموتوسيكلات والتصميمات الجريئة.",
       "descEn": "Bring the spirit of speed and adventure to your walls with motorcycle-inspired artwork. A bold collection created for motorcycle enthusiasts and lovers of powerful designs.",
       "colorsAr": "",
