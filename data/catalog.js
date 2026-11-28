@@ -134,6 +134,798 @@ window.VYBE_CATALOG = {
   ],
   "posters": [
     {
+      "id": "singer",
+      "cat": "singer",
+      "ar": "SHERINE",
+      "en": "SHERINE",
+      "tagAr": "بوسترات مطربين",
+      "tagEn": "Music Poster",
+      "img": "images/s33.png",
+      "descAr": "خلّي ذوقك الموسيقي يظهر في ديكورك مع تصميمات مستوحاة من أشهر المطربين والفنانين. اختار الفن اللي بيعبر عن شخصيتك وموسيقاك المفضلة.",
+      "descEn": "Express your music taste through unique artist-inspired wall art. A creative collection celebrating iconic singers, musical personalities, and unforgettable music culture.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "singer-2",
+      "cat": "singer",
+      "ar": "MARWAN PABLOO",
+      "en": "MARWAN PABLOO",
+      "tagAr": "بوسترات مطربين",
+      "tagEn": "Music Poster",
+      "img": "images/s32.png",
+      "descAr": "خلّي ذوقك الموسيقي يظهر في ديكورك مع تصميمات مستوحاة من أشهر المطربين والفنانين. اختار الفن اللي بيعبر عن شخصيتك وموسيقاك المفضلة.",
+      "descEn": "Express your music taste through unique artist-inspired wall art. A creative collection celebrating iconic singers, musical personalities, and unforgettable music culture.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "singer-3",
+      "cat": "singer",
+      "ar": "PABLO",
+      "en": "PABLO",
+      "tagAr": "بوسترات مطربين",
+      "tagEn": "Music Poster",
+      "img": "images/s31.png",
+      "descAr": "خلّي ذوقك الموسيقي يظهر في ديكورك مع تصميمات مستوحاة من أشهر المطربين والفنانين. اختار الفن اللي بيعبر عن شخصيتك وموسيقاك المفضلة.",
+      "descEn": "Express your music taste through unique artist-inspired wall art. A creative collection celebrating iconic singers, musical personalities, and unforgettable music culture.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "singer-4",
+      "cat": "singer",
+      "ar": "MARWAN PABLO",
+      "en": "MARWAN PABLO",
+      "tagAr": "بوسترات مطربين",
+      "tagEn": "Music Poster",
+      "img": "images/s30.png",
+      "descAr": "خلّي ذوقك الموسيقي يظهر في ديكورك مع تصميمات مستوحاة من أشهر المطربين والفنانين. اختار الفن اللي بيعبر عن شخصيتك وموسيقاك المفضلة.",
+      "descEn": "Express your music taste through unique artist-inspired wall art. A creative collection celebrating iconic singers, musical personalities, and unforgettable music culture.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "singer-5",
+      "cat": "singer",
+      "ar": "WEGZZ",
+      "en": "WEGZZ",
+      "tagAr": "بوسترات مطربين",
+      "tagEn": "Music Poster",
+      "img": "images/s29.png",
+      "descAr": "خلّي ذوقك الموسيقي يظهر في ديكورك مع تصميمات مستوحاة من أشهر المطربين والفنانين. اختار الفن اللي بيعبر عن شخصيتك وموسيقاك المفضلة.",
+      "descEn": "Express your music taste through unique artist-inspired wall art. A creative collection celebrating iconic singers, musical personalities, and unforgettable music culture.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "singer-6",
+      "cat": "singer",
+      "ar": "WEGZ",
+      "en": "WEGZ",
+      "tagAr": "بوسترات مطربين",
+      "tagEn": "Music Poster",
+      "img": "images/s28.png",
+      "descAr": "خلّي ذوقك الموسيقي يظهر في ديكورك مع تصميمات مستوحاة من أشهر المطربين والفنانين. اختار الفن اللي بيعبر عن شخصيتك وموسيقاك المفضلة.",
+      "descEn": "Express your music taste through unique artist-inspired wall art. A creative collection celebrating iconic singers, musical personalities, and unforgettable music culture.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "singer-7",
+      "cat": "singer",
+      "ar": "ABYUSIFF",
+      "en": "ABYUSIFF",
+      "tagAr": "بوسترات مطربين",
+      "tagEn": "Music Poster",
+      "img": "images/s27.png",
+      "descAr": "خلّي ذوقك الموسيقي يظهر في ديكورك مع تصميمات مستوحاة من أشهر المطربين والفنانين. اختار الفن اللي بيعبر عن شخصيتك وموسيقاك المفضلة.",
+      "descEn": "Express your music taste through unique artist-inspired wall art. A creative collection celebrating iconic singers, musical personalities, and unforgettable music culture.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "singer-8",
+      "cat": "singer",
+      "ar": "ABYUSIF L",
+      "en": "ABYUSIF L",
+      "tagAr": "بوسترات مطربين",
+      "tagEn": "Music Poster",
+      "img": "images/s26.png",
+      "descAr": "خلّي ذوقك الموسيقي يظهر في ديكورك مع تصميمات مستوحاة من أشهر المطربين والفنانين. اختار الفن اللي بيعبر عن شخصيتك وموسيقاك المفضلة.",
+      "descEn": "Express your music taste through unique artist-inspired wall art. A creative collection celebrating iconic singers, musical personalities, and unforgettable music culture.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "singer-9",
+      "cat": "singer",
+      "ar": "ABYUSIF",
+      "en": "ABYUSIF",
+      "tagAr": "بوسترات مطربين",
+      "tagEn": "Music Poster",
+      "img": "images/s25.png",
+      "descAr": "خلّي ذوقك الموسيقي يظهر في ديكورك مع تصميمات مستوحاة من أشهر المطربين والفنانين. اختار الفن اللي بيعبر عن شخصيتك وموسيقاك المفضلة.",
+      "descEn": "Express your music taste through unique artist-inspired wall art. A creative collection celebrating iconic singers, musical personalities, and unforgettable music culture.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "singer-10",
+      "cat": "singer",
+      "ar": "MOUSA",
+      "en": "MOUSA",
+      "tagAr": "بوسترات مطربين",
+      "tagEn": "Music Poster",
+      "img": "images/s24.png",
+      "descAr": "خلّي ذوقك الموسيقي يظهر في ديكورك مع تصميمات مستوحاة من أشهر المطربين والفنانين. اختار الفن اللي بيعبر عن شخصيتك وموسيقاك المفضلة.",
+      "descEn": "Express your music taste through unique artist-inspired wall art. A creative collection celebrating iconic singers, musical personalities, and unforgettable music culture.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "singer-11",
+      "cat": "singer",
+      "ar": "MARWAN MOUSA",
+      "en": "MARWAN MOUSA",
+      "tagAr": "بوسترات مطربين",
+      "tagEn": "Music Poster",
+      "img": "images/s23.png",
+      "descAr": "خلّي ذوقك الموسيقي يظهر في ديكورك مع تصميمات مستوحاة من أشهر المطربين والفنانين. اختار الفن اللي بيعبر عن شخصيتك وموسيقاك المفضلة.",
+      "descEn": "Express your music taste through unique artist-inspired wall art. A creative collection celebrating iconic singers, musical personalities, and unforgettable music culture.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "singer-12",
+      "cat": "singer",
+      "ar": "LEGE CY",
+      "en": "LEGE CY",
+      "tagAr": "بوسترات مطربين",
+      "tagEn": "Music Poster",
+      "img": "images/s22.png",
+      "descAr": "خلّي ذوقك الموسيقي يظهر في ديكورك مع تصميمات مستوحاة من أشهر المطربين والفنانين. اختار الفن اللي بيعبر عن شخصيتك وموسيقاك المفضلة.",
+      "descEn": "Express your music taste through unique artist-inspired wall art. A creative collection celebrating iconic singers, musical personalities, and unforgettable music culture.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "singer-13",
+      "cat": "singer",
+      "ar": "SHEHAB",
+      "en": "SHEHAB",
+      "tagAr": "بوسترات مطربين",
+      "tagEn": "Music Poster",
+      "img": "images/s21.png",
+      "descAr": "خلّي ذوقك الموسيقي يظهر في ديكورك مع تصميمات مستوحاة من أشهر المطربين والفنانين. اختار الفن اللي بيعبر عن شخصيتك وموسيقاك المفضلة.",
+      "descEn": "Express your music taste through unique artist-inspired wall art. A creative collection celebrating iconic singers, musical personalities, and unforgettable music culture.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "MOUSVV",
+      "cat": "singer",
+      "ar": "MOUSVV",
+      "en": "MOUSVV",
+      "tagAr": "بوسترات مطربين",
+      "tagEn": "Music Poster",
+      "img": "images/s20.png",
+      "descAr": "خلّي ذوقك الموسيقي يظهر في ديكورك مع تصميمات مستوحاة من أشهر المطربين والفنانين. اختار الفن اللي بيعبر عن شخصيتك وموسيقاك المفضلة.",
+      "descEn": "Express your music taste through unique artist-inspired wall art. A creative collection celebrating iconic singers, musical personalities, and unforgettable music culture.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "singer-14",
+      "cat": "singer",
+      "ar": "MOUSV",
+      "en": "MOUSV",
+      "tagAr": "بوسترات مطربين",
+      "tagEn": "Music Poster",
+      "img": "images/s19.png",
+      "descAr": "خلّي ذوقك الموسيقي يظهر في ديكورك مع تصميمات مستوحاة من أشهر المطربين والفنانين. اختار الفن اللي بيعبر عن شخصيتك وموسيقاك المفضلة.",
+      "descEn": "Express your music taste through unique artist-inspired wall art. A creative collection celebrating iconic singers, musical personalities, and unforgettable music culture.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "singer-15",
+      "cat": "singer",
+      "ar": "AHMED SANTA",
+      "en": "AHMED SANTA",
+      "tagAr": "بوسترات مطربين",
+      "tagEn": "Music Poster",
+      "img": "images/s18.png",
+      "descAr": "خلّي ذوقك الموسيقي يظهر في ديكورك مع تصميمات مستوحاة من أشهر المطربين والفنانين. اختار الفن اللي بيعبر عن شخصيتك وموسيقاك المفضلة.",
+      "descEn": "Express your music taste through unique artist-inspired wall art. A creative collection celebrating iconic singers, musical personalities, and unforgettable music culture.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "singer-16",
+      "cat": "singer",
+      "ar": "ARSENIK",
+      "en": "ARSENIK",
+      "tagAr": "بوسترات مطربين",
+      "tagEn": "Music Poster",
+      "img": "images/s17.png",
+      "descAr": "خلّي ذوقك الموسيقي يظهر في ديكورك مع تصميمات مستوحاة من أشهر المطربين والفنانين. اختار الفن اللي بيعبر عن شخصيتك وموسيقاك المفضلة.",
+      "descEn": "Express your music taste through unique artist-inspired wall art. A creative collection celebrating iconic singers, musical personalities, and unforgettable music culture.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "singer-17",
+      "cat": "singer",
+      "ar": "CAROKEE L",
+      "en": "CAROKEE L",
+      "tagAr": "بوسترات مطربين",
+      "tagEn": "Music Poster",
+      "img": "images/s16.png",
+      "descAr": "خلّي ذوقك الموسيقي يظهر في ديكورك مع تصميمات مستوحاة من أشهر المطربين والفنانين. اختار الفن اللي بيعبر عن شخصيتك وموسيقاك المفضلة.",
+      "descEn": "Express your music taste through unique artist-inspired wall art. A creative collection celebrating iconic singers, musical personalities, and unforgettable music culture.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "singer-18",
+      "cat": "singer",
+      "ar": "CAROKEE",
+      "en": "CAROKEE",
+      "tagAr": "بوسترات مطربين",
+      "tagEn": "Music Poster",
+      "img": "images/s15.png",
+      "descAr": "خلّي ذوقك الموسيقي يظهر في ديكورك مع تصميمات مستوحاة من أشهر المطربين والفنانين. اختار الفن اللي بيعبر عن شخصيتك وموسيقاك المفضلة.",
+      "descEn": "Express your music taste through unique artist-inspired wall art. A creative collection celebrating iconic singers, musical personalities, and unforgettable music culture.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "singer-19",
+      "cat": "singer",
+      "ar": "TUL8TE",
+      "en": "TUL8TE",
+      "tagAr": "بوسترات مطربين",
+      "tagEn": "Music Poster",
+      "img": "images/s14.png",
+      "descAr": "خلّي ذوقك الموسيقي يظهر في ديكورك مع تصميمات مستوحاة من أشهر المطربين والفنانين. اختار الفن اللي بيعبر عن شخصيتك وموسيقاك المفضلة.",
+      "descEn": "Express your music taste through unique artist-inspired wall art. A creative collection celebrating iconic singers, musical personalities, and unforgettable music culture.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "singer-20",
+      "cat": "singer",
+      "ar": "SAINT LEVANT",
+      "en": "SAINT LEVANT",
+      "tagAr": "بوسترات مطربين",
+      "tagEn": "Music Poster",
+      "img": "images/s13.png",
+      "descAr": "خلّي ذوقك الموسيقي يظهر في ديكورك مع تصميمات مستوحاة من أشهر المطربين والفنانين. اختار الفن اللي بيعبر عن شخصيتك وموسيقاك المفضلة.",
+      "descEn": "Express your music taste through unique artist-inspired wall art. A creative collection celebrating iconic singers, musical personalities, and unforgettable music culture.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "singer-21",
+      "cat": "singer",
+      "ar": "TUL8TE & SAINT LEVANT",
+      "en": "TUL8TE & SAINT LEVANT",
+      "tagAr": "بوسترات مطربين",
+      "tagEn": "Music Poster",
+      "img": "images/s12.png",
+      "descAr": "خلّي ذوقك الموسيقي يظهر في ديكورك مع تصميمات مستوحاة من أشهر المطربين والفنانين. اختار الفن اللي بيعبر عن شخصيتك وموسيقاك المفضلة.",
+      "descEn": "Express your music taste through unique artist-inspired wall art. A creative collection celebrating iconic singers, musical personalities, and unforgettable music culture.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "singer-22",
+      "cat": "singer",
+      "ar": "EMINEEM",
+      "en": "EMINEEM",
+      "tagAr": "بوسترات مطربين",
+      "tagEn": "Music Poster",
+      "img": "images/s11.png",
+      "descAr": "خلّي ذوقك الموسيقي يظهر في ديكورك مع تصميمات مستوحاة من أشهر المطربين والفنانين. اختار الفن اللي بيعبر عن شخصيتك وموسيقاك المفضلة.",
+      "descEn": "Express your music taste through unique artist-inspired wall art. A creative collection celebrating iconic singers, musical personalities, and unforgettable music culture.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "singer-23",
+      "cat": "singer",
+      "ar": "EMINEM",
+      "en": "EMINEM",
+      "tagAr": "بوسترات مطربين",
+      "tagEn": "Music Poster",
+      "img": "images/s10.png",
+      "descAr": "خلّي ذوقك الموسيقي يظهر في ديكورك مع تصميمات مستوحاة من أشهر المطربين والفنانين. اختار الفن اللي بيعبر عن شخصيتك وموسيقاك المفضلة.",
+      "descEn": "Express your music taste through unique artist-inspired wall art. A creative collection celebrating iconic singers, musical personalities, and unforgettable music culture.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "singer-24",
+      "cat": "poster3",
+      "ar": "TRAVES",
+      "en": "TRAVES",
+      "tagAr": "بوسترات مطربين",
+      "tagEn": "Music Poster",
+      "img": "images/s9.png",
+      "descAr": "خلّي ذوقك الموسيقي يظهر في ديكورك مع تصميمات مستوحاة من أشهر المطربين والفنانين. اختار الفن اللي بيعبر عن شخصيتك وموسيقاك المفضلة.",
+      "descEn": "Express your music taste through unique artist-inspired wall art. A creative collection celebrating iconic singers, musical personalities, and unforgettable music culture.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "singer-25",
+      "cat": "singer",
+      "ar": "TRAVIS SCOT",
+      "en": "TRAVIS SCOT",
+      "tagAr": "بوسترات مطربين",
+      "tagEn": "Music Poster",
+      "img": "images/s8.png",
+      "descAr": "خلّي ذوقك الموسيقي يظهر في ديكورك مع تصميمات مستوحاة من أشهر المطربين والفنانين. اختار الفن اللي بيعبر عن شخصيتك وموسيقاك المفضلة.",
+      "descEn": "Express your music taste through unique artist-inspired wall art. A creative collection celebrating iconic singers, musical personalities, and unforgettable music culture.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "singer-26",
+      "cat": "singer",
+      "ar": "TRAVIS SCOTT",
+      "en": "TRAVIS SCOTT",
+      "tagAr": "بوسترات مطربين",
+      "tagEn": "Music Poster",
+      "img": "images/s7.png",
+      "descAr": "خلّي ذوقك الموسيقي يظهر في ديكورك مع تصميمات مستوحاة من أشهر المطربين والفنانين. اختار الفن اللي بيعبر عن شخصيتك وموسيقاك المفضلة.",
+      "descEn": "Express your music taste through unique artist-inspired wall art. A creative collection celebrating iconic singers, musical personalities, and unforgettable music culture.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "singer-27",
+      "cat": "singer",
+      "ar": "DRAKE",
+      "en": "DRAKE",
+      "tagAr": "بوسترات مطربين",
+      "tagEn": "Music Poster",
+      "img": "images/s6.png",
+      "descAr": "خلّي ذوقك الموسيقي يظهر في ديكورك مع تصميمات مستوحاة من أشهر المطربين والفنانين. اختار الفن اللي بيعبر عن شخصيتك وموسيقاك المفضلة.",
+      "descEn": "Express your music taste through unique artist-inspired wall art. A creative collection celebrating iconic singers, musical personalities, and unforgettable music culture.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "singer-28",
+      "cat": "singer",
+      "ar": "DARKE",
+      "en": "DARKE",
+      "tagAr": "بوسترات مطربين",
+      "tagEn": "Music Poster",
+      "img": "images/s5.png",
+      "descAr": "خلّي ذوقك الموسيقي يظهر في ديكورك مع تصميمات مستوحاة من أشهر المطربين والفنانين. اختار الفن اللي بيعبر عن شخصيتك وموسيقاك المفضلة.",
+      "descEn": "Express your music taste through unique artist-inspired wall art. A creative collection celebrating iconic singers, musical personalities, and unforgettable music culture.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "singer-29",
+      "cat": "singer",
+      "ar": "AMR DIAB EL",
+      "en": "AMR DIAB EL",
+      "tagAr": "بوسترات مطربين",
+      "tagEn": "Music Poster",
+      "img": "images/s4.png",
+      "descAr": "خلّي ذوقك الموسيقي يظهر في ديكورك مع تصميمات مستوحاة من أشهر المطربين والفنانين. اختار الفن اللي بيعبر عن شخصيتك وموسيقاك المفضلة.",
+      "descEn": "Express your music taste through unique artist-inspired wall art. A creative collection celebrating iconic singers, musical personalities, and unforgettable music culture.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "singer-30",
+      "cat": "singer",
+      "ar": "MEKY",
+      "en": "MEKY",
+      "tagAr": "بوسترات مطربين",
+      "tagEn": "Music Poster",
+      "img": "images/s3.png",
+      "descAr": "خلّي ذوقك الموسيقي يظهر في ديكورك مع تصميمات مستوحاة من أشهر المطربين والفنانين. اختار الفن اللي بيعبر عن شخصيتك وموسيقاك المفضلة.",
+      "descEn": "Express your music taste through unique artist-inspired wall art. A creative collection celebrating iconic singers, musical personalities, and unforgettable music culture.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "singer-31",
+      "cat": "singer",
+      "ar": "AMR DIAB",
+      "en": "AMR DIAB",
+      "tagAr": "بوسترات مطربين",
+      "tagEn": "Music Poster",
+      "img": "images/s2.png",
+      "descAr": "خلّي ذوقك الموسيقي يظهر في ديكورك مع تصميمات مستوحاة من أشهر المطربين والفنانين. اختار الفن اللي بيعبر عن شخصيتك وموسيقاك المفضلة.",
+      "descEn": "Express your music taste through unique artist-inspired wall art. A creative collection celebrating iconic singers, musical personalities, and unforgettable music culture.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
+      "id": "singer-32",
+      "cat": "singer",
+      "ar": "TAMER ASHOR ",
+      "en": "TAMER ASHOR ",
+      "tagAr": "بوسترات مطربين",
+      "tagEn": "Music Poster",
+      "img": "images/s1.png",
+      "descAr": "خلّي ذوقك الموسيقي يظهر في ديكورك مع تصميمات مستوحاة من أشهر المطربين والفنانين. اختار الفن اللي بيعبر عن شخصيتك وموسيقاك المفضلة.",
+      "descEn": "Express your music taste through unique artist-inspired wall art. A creative collection celebrating iconic singers, musical personalities, and unforgettable music culture.",
+      "colorsAr": "",
+      "colorsEn": "",
+      "available": true,
+      "w": 1080,
+      "h": 1350,
+      "oldPrice": {
+        "20x30": 200,
+        "30x40": 300
+      },
+      "price": {
+        "20x30": 130,
+        "30x40": 200
+      }
+    },
+    {
       "id": "football",
       "cat": "football",
       "ar": "DYBALA",
