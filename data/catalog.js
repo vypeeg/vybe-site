@@ -1304,7 +1304,7 @@ window.VYBE_CATALOG = {
     },
     {
       "id": "singer-24",
-      "cat": "poster3",
+      "cat": "singer",
       "ar": "TRAVES",
       "en": "TRAVES",
       "tagAr": "بوسترات مطربين",
