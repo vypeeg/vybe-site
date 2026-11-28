@@ -327,7 +327,7 @@ window.VYBE_CATALOG = {
     },
     {
       "id": "anime-9",
-      "cat": "poster3",
+      "cat": "anime",
       "ar": "Anime",
       "en": "Anime",
       "tagAr": "بوسترات أنمي",
@@ -399,7 +399,7 @@ window.VYBE_CATALOG = {
     },
     {
       "id": "anime-12",
-      "cat": "poster3",
+      "cat": "anime",
       "ar": "Anime",
       "en": "Anime",
       "tagAr": "بوسترات أنمي",
@@ -1094,9 +1094,9 @@ window.VYBE_CATALOG = {
       }
     },
     {
-      "id": "poster-mwz8u9n3-1pbgn",
-      "cat": "poster3",
-      "ar": "decor",
+      "id": "decor-18",
+      "cat": "decor",
+      "ar": "decor30",
       "en": "decor",
       "tagAr": "ديكور منزلي",
       "tagEn": "Home Decor",
@@ -1118,7 +1118,7 @@ window.VYBE_CATALOG = {
       }
     },
     {
-      "id": "decor-18",
+      "id": "decor-18-2",
       "cat": "decor",
       "ar": "decor",
       "en": "decor",
